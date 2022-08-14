@@ -1,0 +1,21 @@
+[0.806s] Invoking command in '/home/max/temp_workspace/src/talker': PYTHONPATH=/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/max/temp_workspace/build/talker/build install --prefix /home/max/temp_workspace/install/talker --record /home/max/temp_workspace/build/talker/install.log --single-version-externally-managed
+[1.077s] running egg_info
+[1.078s] writing ../../build/talker/talker.egg-info/PKG-INFO
+[1.078s] writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt
+[1.078s] writing entry points to ../../build/talker/talker.egg-info/entry_points.txt
+[1.078s] writing requirements to ../../build/talker/talker.egg-info/requires.txt
+[1.078s] writing top-level names to ../../build/talker/talker.egg-info/top_level.txt
+[1.125s] reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.126s] running install
+[1.128s] running install_lib
+[1.130s] running install_data
+[1.130s] running install_egg_info
+[1.132s] removing '/home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info' (and everything under it)
+[1.133s] Copying ../../build/talker/talker.egg-info to /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info
+[1.134s] running install_scripts
+[1.155s] Installing talker script to /home/max/temp_workspace/install/talker/lib/talker
+[1.155s] writing list of installed files to '/home/max/temp_workspace/build/talker/install.log'
+[1.184s] Invoked command in '/home/max/temp_workspace/src/talker' returned '0': PYTHONPATH=/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/max/temp_workspace/build/talker/build install --prefix /home/max/temp_workspace/install/talker --record /home/max/temp_workspace/build/talker/install.log --single-version-externally-managed

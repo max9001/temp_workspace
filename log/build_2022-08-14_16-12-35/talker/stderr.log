@@ -1,0 +1,5 @@
+  File "/home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker/main.py", line 38
+    self.timer_callback
+    ^
+SyntaxError: invalid syntax
+

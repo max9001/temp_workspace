@@ -14,11 +14,11 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 		cd temp_workspace
 
-- Create a src folder: 
+- Create a `src` folder: 
 
 		mkdir src
 
-- Enter src folder: 
+- Enter `src` folder: 
 
 		cd src
 
@@ -286,7 +286,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - open new terminal window
   
-  - make sure terminal window where we ran `ros2 run talker talker` is open
+  - make sure terminal window where we ran `ros2 run listener listener` is open
 
 - in terminal, navigate to the workspace directory ('temp_workspace')
 

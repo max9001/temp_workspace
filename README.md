@@ -288,7 +288,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
   
   - make sure terminal window where we ran `ros2 run listener listener` is open
 
-- in terminal, navigate to the workspace directory ('temp_workspace')
+- in terminal, navigate to the workspace directory (`temp_workspace`)
 
 - run: 
 

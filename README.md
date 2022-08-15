@@ -79,7 +79,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
   		<exec_depend>std_msgs</exec_depend>
   
 
-## Add entry point (So we can use ros2 run to execute the talker)
+## Add entry point (So we can use `ros2 run` to execute the talker)
 
 - navigate to `temp_workspace/src/talker/setup.py`
 

@@ -1,5 +1,3 @@
-# ROS2_Practice
-
 Create workspace
 
 	* In home directory, make a workspace: mkdir temp_workspace
@@ -73,7 +71,7 @@ Add entry point (So we can use ros2 run to execute the talker)
 
 			* inside the [ ... ] add:
 
-				'talker = talker.main:main'
+				'talker = talker.main:main',
 
 					* first is our executable name (talker)
 
@@ -93,8 +91,26 @@ Build the package
 
 Run the Package
 
+	* open new terminal window
+
+	* in terminal, navigate to the workspace directory (temp_workspace)
+
 	* source setup files: . install/setup.bash
 
 	* in terminal, navigate to the workspace directory (temp_workspace)
 
 	* run: ros2 run talker talker
+
+Check if working
+
+	* New terminal window
+
+	* in terminal, navigate to the workspace directory (temp_workspace)
+
+	* run: ros2 topic list -t
+
+		* 'talker' should be in the topic list
+
+	* run: ros2 topic echo /talker
+
+		*should publish data

@@ -1,19 +1,29 @@
-BASED ON: https://youtu.be/Oz3LTRgRvtU
+# ROS 2 Foxy Subscriber and Publisher (Python)
 
 So far, these notes go through creating a publisher. I left lots of comments in temp_workspace/src/talker/talker/main.py so you can hopefully understand what's going on. the tutorial also shows how to make a subscriber which I plan to do once I get this publisher working.
 
-Create workspace
+# Publisher
 
-	* In home directory, make a workspace: mkdir temp_workspace
+## Create workspace
 
-	* Enter workspace: cd temp_workspace
+- In home directory, make a workspace: 
 
-	* Create a src folder: mkdir src
+	`mkdir temp_workspace`
 
-	* Enter src folder: cd src
+- Enter workspace: 
+
+	`cd temp_workspace`
+
+- Create a src folder: 
+
+	`mkdir src`
+
+- Enter src folder: 
+
+	`cd src`
 
 
-Create package
+## Create package
 
 	* while in src, create a pkg. in this example we will create 'talker'
 
@@ -22,7 +32,7 @@ Create package
 	* Create source file for our package 'talker': touch talker/talker/main.py
 
 
-Begin writing code for 'talker' package
+## Begin writing code for 'talker' package
 
 	* navigate to temp_workspace/src/talker/talker/main.py in vscode
 
@@ -53,7 +63,7 @@ Begin writing code for 'talker' package
 		* create shutdown
 
 
-Add dependencies
+## Add dependencies
 
 	* navigate to temp_workspace/src/talker/package.xml
 
@@ -65,7 +75,7 @@ Add dependencies
   			<exec_depend>std_msgs</exec_depend>
   
 
-Add entry point (So we can use ros2 run to execute the talker)
+## Add entry point (So we can use ros2 run to execute the talker)
 
 	* navigate to temp_workspace/src/talker/setup.py
 
@@ -86,14 +96,14 @@ Add entry point (So we can use ros2 run to execute the talker)
 					* and finalu the method name inside our source file (main)
 
 
-Build the package
+## Build the package
 
 	* in terminal, navigate to the workspace directory (temp_workspace)
 
 	* run: colcon build
 
 
-Run the Package
+## Run the Package
 
 	* open new terminal window
 
@@ -103,7 +113,7 @@ Run the Package
 
 	* run: ros2 run talker talker
 
-Check if working
+## Check if working
 
 	* New terminal window
 
@@ -116,3 +126,7 @@ Check if working
 	* run: ros2 topic echo /talker
 
 		*should publish data
+
+
+
+### BASED ON [THIS TUTORIAL](https://youtu.be/Oz3LTRgRvtU)

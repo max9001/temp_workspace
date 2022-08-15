@@ -298,7 +298,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
     
     `/talker [std_msgs/msg/String]`
 
-- Test to see if listener can listen to the talker (we will use `hi\`:
+- Test to see if listener can listen to the talker (we will use `hi\`):
 
     	ros2 topic pub /talker std_msgs/msg/String data:\ \'hi\'\
 

@@ -169,11 +169,11 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - Create subscriber package `listener`
 
-    ros2 pkg create --build-type ament_python listener
+    	ros2 pkg create --build-type ament_python listener
 
 - create source file for listener package (`main.py`)
 
-    touch listener/listener/main.py
+    	touch listener/listener/main.py
 
 
 ## Begin writing code for `listener` package
@@ -225,8 +225,8 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
   - add what packages we imported in main.py
 
-    <exec_depend>rclpy</exec_depend>
-    <exec_depend>std_msgs</exec_depend>
+    	<exec_depend>rclpy</exec_depend>
+    	<exec_depend>std_msgs</exec_depend>
   
 
 ## Add entry point (So we can use `ros2 run` to execute the listener)
@@ -235,7 +235,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - change `install_requires=['setuptools']` to
   
-      install_requires=['setuptools','rclpy']
+      	install_requires=['setuptools','rclpy']
 
 - Look for the `entry_points` line 
 
@@ -243,7 +243,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
     - inside the `[ ... ]` add:
 
-      'listener = listener.main:main',
+      	'listener = listener.main:main',
 
       - first is our executable name (listener)
 

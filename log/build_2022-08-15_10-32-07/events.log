@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (listener) JobQueued: {'identifier': 'listener', 'dependencies': OrderedDict()}
+[0.000649] (talker) JobQueued: {'identifier': 'talker', 'dependencies': OrderedDict()}
+[0.001643] (listener) JobStarted: {'identifier': 'listener'}
+[0.025757] (talker) JobStarted: {'identifier': 'talker'}
+[0.099803] (-) TimerEvent: {}
+[0.200206] (-) TimerEvent: {}
+[0.300473] (-) TimerEvent: {}
+[0.400743] (-) TimerEvent: {}
+[0.501116] (-) TimerEvent: {}
+[0.601573] (-) TimerEvent: {}
+[0.701838] (-) TimerEvent: {}
+[0.802124] (-) TimerEvent: {}
+[0.902590] (-) TimerEvent: {}
+[1.003187] (-) TimerEvent: {}
+[1.103526] (-) TimerEvent: {}
+[1.203861] (-) TimerEvent: {}
+[1.304182] (-) TimerEvent: {}
+[1.404486] (-) TimerEvent: {}
+[1.504831] (-) TimerEvent: {}
+[1.605150] (-) TimerEvent: {}
+[1.668788] (listener) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/listener', 'build', '--build-base', '/home/max/temp_workspace/build/listener/build', 'install', '--prefix', '/home/max/temp_workspace/install/listener', '--record', '/home/max/temp_workspace/build/listener/install.log', '--single-version-externally-managed'], 'cwd': '/home/max/temp_workspace/src/listener', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'C.UTF-8', 'USER': 'max', 'SSH_AGENT_PID': '1594', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/max', 'OLDPWD': '/home/max/temp_workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1410', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3894', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'max', 'JOURNAL_STREAM': '8:42278', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'max', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/max-MacBookAir:@/tmp/.ICE-unix/1632,unix/max-MacBookAir:/tmp/.ICE-unix/1632', 'INVOCATION_ID': '5c09d0de46684a07850eb3e5aab7e640', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:34c6ed09-f3cb-4f51-98fc-4f7853633003', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/max/temp_workspace/build/listener', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.682442] (talker) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/talker', 'build', '--build-base', '/home/max/temp_workspace/build/talker/build', 'install', '--prefix', '/home/max/temp_workspace/install/talker', '--record', '/home/max/temp_workspace/build/talker/install.log', '--single-version-externally-managed'], 'cwd': '/home/max/temp_workspace/src/talker', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'C.UTF-8', 'USER': 'max', 'SSH_AGENT_PID': '1594', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/max', 'OLDPWD': '/home/max/temp_workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1410', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3894', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'max', 'JOURNAL_STREAM': '8:42278', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'max', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/max-MacBookAir:@/tmp/.ICE-unix/1632,unix/max-MacBookAir:/tmp/.ICE-unix/1632', 'INVOCATION_ID': '5c09d0de46684a07850eb3e5aab7e640', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:34c6ed09-f3cb-4f51-98fc-4f7853633003', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/max/temp_workspace/build/talker', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.705303] (-) TimerEvent: {}
+[1.805797] (-) TimerEvent: {}
+[1.906119] (-) TimerEvent: {}
+[1.995026] (listener) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.995330] (listener) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.995622] (listener) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[1.995779] (listener) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.003992] (talker) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.004268] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.004489] (talker) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[2.004639] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.006192] (-) TimerEvent: {}
+[2.080854] (listener) StdoutLine: {'line': b'running egg_info\n'}
+[2.081615] (listener) StdoutLine: {'line': b'creating ../../build/listener/listener.egg-info\n'}
+[2.091771] (talker) StdoutLine: {'line': b'running egg_info\n'}
+[2.092480] (talker) StdoutLine: {'line': b'creating ../../build/talker/talker.egg-info\n'}
+[2.095026] (listener) StdoutLine: {'line': b'writing ../../build/listener/listener.egg-info/PKG-INFO\n'}
+[2.095363] (listener) StdoutLine: {'line': b'writing dependency_links to ../../build/listener/listener.egg-info/dependency_links.txt\n'}
+[2.095609] (listener) StdoutLine: {'line': b'writing entry points to ../../build/listener/listener.egg-info/entry_points.txt\n'}
+[2.095831] (listener) StdoutLine: {'line': b'writing requirements to ../../build/listener/listener.egg-info/requires.txt\n'}
+[2.096285] (listener) StdoutLine: {'line': b'writing top-level names to ../../build/listener/listener.egg-info/top_level.txt\n'}
+[2.099708] (listener) StdoutLine: {'line': b"writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[2.106166] (talker) StdoutLine: {'line': b'writing ../../build/talker/talker.egg-info/PKG-INFO\n'}
+[2.106405] (-) TimerEvent: {}
+[2.106639] (talker) StdoutLine: {'line': b'writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt\n'}
+[2.106861] (talker) StdoutLine: {'line': b'writing entry points to ../../build/talker/talker.egg-info/entry_points.txt\n'}
+[2.107074] (talker) StdoutLine: {'line': b'writing requirements to ../../build/talker/talker.egg-info/requires.txt\n'}
+[2.107280] (talker) StdoutLine: {'line': b'writing top-level names to ../../build/talker/talker.egg-info/top_level.txt\n'}
+[2.108373] (talker) StdoutLine: {'line': b"writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[2.127717] (listener) StdoutLine: {'line': b"reading manifest file '../../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[2.128640] (listener) StdoutLine: {'line': b"writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[2.128929] (listener) StdoutLine: {'line': b'running build\n'}
+[2.129261] (listener) StdoutLine: {'line': b'running build_py\n'}
+[2.129426] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/build/listener/build\n'}
+[2.129624] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/build/listener/build/lib\n'}
+[2.129807] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/build/listener/build/lib/listener\n'}
+[2.129904] (listener) StdoutLine: {'line': b'copying listener/main.py -> /home/max/temp_workspace/build/listener/build/lib/listener\n'}
+[2.129982] (listener) StdoutLine: {'line': b'copying listener/__init__.py -> /home/max/temp_workspace/build/listener/build/lib/listener\n'}
+[2.130056] (listener) StdoutLine: {'line': b'running install\n'}
+[2.130276] (listener) StderrLine: {'line': b'/home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.130450] (listener) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.137221] (talker) StdoutLine: {'line': b"reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[2.137850] (listener) StdoutLine: {'line': b'running install_lib\n'}
+[2.138242] (talker) StdoutLine: {'line': b"writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[2.138545] (talker) StdoutLine: {'line': b'running build\n'}
+[2.138762] (talker) StdoutLine: {'line': b'running build_py\n'}
+[2.138911] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/build/talker/build\n'}
+[2.139151] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/build/talker/build/lib\n'}
+[2.139307] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/build/talker/build/lib/talker\n'}
+[2.139577] (talker) StdoutLine: {'line': b'copying talker/main.py -> /home/max/temp_workspace/build/talker/build/lib/talker\n'}
+[2.139751] (talker) StdoutLine: {'line': b'copying talker/__init__.py -> /home/max/temp_workspace/build/talker/build/lib/talker\n'}
+[2.139880] (talker) StdoutLine: {'line': b'running install\n'}
+[2.140011] (talker) StderrLine: {'line': b'/home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.140135] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.147163] (talker) StdoutLine: {'line': b'running install_lib\n'}
+[2.152025] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener\n'}
+[2.152377] (listener) StdoutLine: {'line': b'copying /home/max/temp_workspace/build/listener/build/lib/listener/main.py -> /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener\n'}
+[2.152618] (listener) StdoutLine: {'line': b'copying /home/max/temp_workspace/build/listener/build/lib/listener/__init__.py -> /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener\n'}
+[2.153356] (listener) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/main.py to main.cpython-38.pyc\n'}
+[2.153709] (listener) StderrLine: {'line': b'  File "/home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/main.py", line 27\n'}
+[2.153931] (listener) StderrLine: {'line': b'    self.listener_callback,\n'}
+[2.154072] (listener) StderrLine: {'line': b'    ^\n'}
+[2.154211] (listener) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[2.154370] (listener) StderrLine: {'line': b'\n'}
+[2.154503] (listener) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/__init__.py to __init__.cpython-38.pyc\n'}
+[2.154645] (listener) StdoutLine: {'line': b'running install_data\n'}
+[2.161008] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker\n'}
+[2.161374] (talker) StdoutLine: {'line': b'copying /home/max/temp_workspace/build/talker/build/lib/talker/main.py -> /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker\n'}
+[2.161537] (talker) StdoutLine: {'line': b'copying /home/max/temp_workspace/build/talker/build/lib/talker/__init__.py -> /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker\n'}
+[2.161944] (talker) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker/main.py to main.cpython-38.pyc\n'}
+[2.162446] (talker) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker/__init__.py to __init__.cpython-38.pyc\n'}
+[2.162674] (talker) StdoutLine: {'line': b'running install_data\n'}
+[2.167084] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/listener/share/ament_index\n'}
+[2.167394] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/listener/share/ament_index/resource_index\n'}
+[2.167630] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/listener/share/ament_index/resource_index/packages\n'}
+[2.167783] (listener) StdoutLine: {'line': b'copying resource/listener -> /home/max/temp_workspace/install/listener/share/ament_index/resource_index/packages\n'}
+[2.167933] (listener) StdoutLine: {'line': b'copying package.xml -> /home/max/temp_workspace/install/listener/share/listener\n'}
+[2.168080] (listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.175748] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/talker/share/ament_index\n'}
+[2.176116] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/talker/share/ament_index/resource_index\n'}
+[2.176358] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/install/talker/share/ament_index/resource_index/packages\n'}
+[2.176510] (talker) StdoutLine: {'line': b'copying resource/talker -> /home/max/temp_workspace/install/talker/share/ament_index/resource_index/packages\n'}
+[2.176655] (talker) StdoutLine: {'line': b'copying package.xml -> /home/max/temp_workspace/install/talker/share/talker\n'}
+[2.176797] (talker) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.182012] (listener) StdoutLine: {'line': b'Copying ../../build/listener/listener.egg-info to /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info\n'}
+[2.183125] (listener) StdoutLine: {'line': b'running install_scripts\n'}
+[2.191016] (talker) StdoutLine: {'line': b'Copying ../../build/talker/talker.egg-info to /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info\n'}
+[2.192396] (talker) StdoutLine: {'line': b'running install_scripts\n'}
+[2.206517] (-) TimerEvent: {}
+[2.261516] (listener) StdoutLine: {'line': b'Installing listener script to /home/max/temp_workspace/install/listener/lib/listener\n'}
+[2.262029] (listener) StdoutLine: {'line': b"writing list of installed files to '/home/max/temp_workspace/build/listener/install.log'\n"}
+[2.272849] (talker) StdoutLine: {'line': b'Installing talker script to /home/max/temp_workspace/install/talker/lib/talker\n'}
+[2.273386] (talker) StdoutLine: {'line': b"writing list of installed files to '/home/max/temp_workspace/build/talker/install.log'\n"}
+[2.306673] (-) TimerEvent: {}
+[2.334833] (listener) CommandEnded: {'returncode': 0}
+[2.378170] (listener) JobEnded: {'identifier': 'listener', 'rc': 0}
+[2.386865] (talker) CommandEnded: {'returncode': 0}
+[2.401990] (talker) JobEnded: {'identifier': 'talker', 'rc': 0}
+[2.403172] (-) EventReactorShutdown: {}

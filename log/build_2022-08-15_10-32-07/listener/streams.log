@@ -1,0 +1,48 @@
+[1.669s] Invoking command in '/home/max/temp_workspace/src/listener': PYTHONPATH=/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/listener build --build-base /home/max/temp_workspace/build/listener/build install --prefix /home/max/temp_workspace/install/listener --record /home/max/temp_workspace/build/listener/install.log --single-version-externally-managed
+[1.994s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.994s]   warnings.warn(
+[1.994s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.994s]   warnings.warn(
+[2.079s] running egg_info
+[2.080s] creating ../../build/listener/listener.egg-info
+[2.093s] writing ../../build/listener/listener.egg-info/PKG-INFO
+[2.094s] writing dependency_links to ../../build/listener/listener.egg-info/dependency_links.txt
+[2.094s] writing entry points to ../../build/listener/listener.egg-info/entry_points.txt
+[2.094s] writing requirements to ../../build/listener/listener.egg-info/requires.txt
+[2.095s] writing top-level names to ../../build/listener/listener.egg-info/top_level.txt
+[2.098s] writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[2.126s] reading manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[2.127s] writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[2.127s] running build
+[2.128s] running build_py
+[2.128s] creating /home/max/temp_workspace/build/listener/build
+[2.128s] creating /home/max/temp_workspace/build/listener/build/lib
+[2.128s] creating /home/max/temp_workspace/build/listener/build/lib/listener
+[2.128s] copying listener/main.py -> /home/max/temp_workspace/build/listener/build/lib/listener
+[2.128s] copying listener/__init__.py -> /home/max/temp_workspace/build/listener/build/lib/listener
+[2.128s] running install
+[2.129s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.129s]   warnings.warn(
+[2.136s] running install_lib
+[2.151s] creating /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener
+[2.151s] copying /home/max/temp_workspace/build/listener/build/lib/listener/main.py -> /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener
+[2.151s] copying /home/max/temp_workspace/build/listener/build/lib/listener/__init__.py -> /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener
+[2.152s] byte-compiling /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/main.py to main.cpython-38.pyc
+[2.152s]   File "/home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/main.py", line 27
+[2.152s]     self.listener_callback,
+[2.152s]     ^
+[2.153s] SyntaxError: invalid syntax
+[2.153s] 
+[2.153s] byte-compiling /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/__init__.py to __init__.cpython-38.pyc
+[2.153s] running install_data
+[2.166s] creating /home/max/temp_workspace/install/listener/share/ament_index
+[2.166s] creating /home/max/temp_workspace/install/listener/share/ament_index/resource_index
+[2.166s] creating /home/max/temp_workspace/install/listener/share/ament_index/resource_index/packages
+[2.166s] copying resource/listener -> /home/max/temp_workspace/install/listener/share/ament_index/resource_index/packages
+[2.166s] copying package.xml -> /home/max/temp_workspace/install/listener/share/listener
+[2.166s] running install_egg_info
+[2.180s] Copying ../../build/listener/listener.egg-info to /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info
+[2.182s] running install_scripts
+[2.260s] Installing listener script to /home/max/temp_workspace/install/listener/lib/listener
+[2.261s] writing list of installed files to '/home/max/temp_workspace/build/listener/install.log'
+[2.335s] Invoked command in '/home/max/temp_workspace/src/listener' returned '0': PYTHONPATH=/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/listener build --build-base /home/max/temp_workspace/build/listener/build install --prefix /home/max/temp_workspace/install/listener --record /home/max/temp_workspace/build/listener/install.log --single-version-externally-managed

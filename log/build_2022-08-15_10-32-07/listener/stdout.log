@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/listener/listener.egg-info
+writing ../../build/listener/listener.egg-info/PKG-INFO
+writing dependency_links to ../../build/listener/listener.egg-info/dependency_links.txt
+writing entry points to ../../build/listener/listener.egg-info/entry_points.txt
+writing requirements to ../../build/listener/listener.egg-info/requires.txt
+writing top-level names to ../../build/listener/listener.egg-info/top_level.txt
+writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+reading manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/max/temp_workspace/build/listener/build
+creating /home/max/temp_workspace/build/listener/build/lib
+creating /home/max/temp_workspace/build/listener/build/lib/listener
+copying listener/main.py -> /home/max/temp_workspace/build/listener/build/lib/listener
+copying listener/__init__.py -> /home/max/temp_workspace/build/listener/build/lib/listener
+running install
+running install_lib
+creating /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener
+copying /home/max/temp_workspace/build/listener/build/lib/listener/main.py -> /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener
+copying /home/max/temp_workspace/build/listener/build/lib/listener/__init__.py -> /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener
+byte-compiling /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/main.py to main.cpython-38.pyc
+byte-compiling /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/max/temp_workspace/install/listener/share/ament_index
+creating /home/max/temp_workspace/install/listener/share/ament_index/resource_index
+creating /home/max/temp_workspace/install/listener/share/ament_index/resource_index/packages
+copying resource/listener -> /home/max/temp_workspace/install/listener/share/ament_index/resource_index/packages
+copying package.xml -> /home/max/temp_workspace/install/listener/share/listener
+running install_egg_info
+Copying ../../build/listener/listener.egg-info to /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/max/temp_workspace/install/listener/lib/listener
+writing list of installed files to '/home/max/temp_workspace/build/listener/install.log'

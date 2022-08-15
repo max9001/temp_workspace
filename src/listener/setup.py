@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'talker'
+package_name = 'listener'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = talker.main:main',
+            'listener = listener.main:main'
         ],
     },
 )

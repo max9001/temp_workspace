@@ -235,7 +235,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - change `install_requires=['setuptools']` to
   
-      	install_requires=['setuptools','rclpy']
+      install_requires=['setuptools','rclpy']
 
 - Look for the `entry_points` line 
 

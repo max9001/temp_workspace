@@ -243,7 +243,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
     - inside the `[ ... ]` add:
 
-      	'listener = listener.main:main',
+      		'listener = listener.main:main',
 
       - first is our executable name (listener)
 
@@ -258,16 +258,16 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - Navigate to workspace (`temp_workspace`)
 
--run:
+- run:
 
-    rm -r build/ install/ log/
+    	rm -r build/ install/ log/
 
-
+	
 ## Build the listener package
 
 - to build both the publisher and subscriber, run:
 
-    colcon build
+   		 colcon build
 
 
 ## Run the listener package
@@ -276,11 +276,11 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - source setup files: 
 
-    . install/setup.bash
+    	. install/setup.bash
 
 - run: 
 
-    ros2 run listener listener
+    	ros2 run listener listener
 
 ## Check if working
 
@@ -292,7 +292,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - run: 
 
-    ros2 topic list -t
+    	ros2 topic list -t
 
   - 'talker' should be in the topic list
     
@@ -300,7 +300,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - Test to see if listener can listen to the talker (we will use `hi\`:
 
-    ros2 topic pub /talker std_msgs/msg/String data:\ \'hi\'\
+    	ros2 topic pub /talker std_msgs/msg/String data:\ \'hi\'\
 
   - the talker should begin to publish data:
   
@@ -325,11 +325,11 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
     - source setup files: 
  
-      . install/setup.bash
+      		. install/setup.bash
 
     - run: 
 
-      ros2 run talker 
+     	 	ros2 run talker 
 
   -Nothing will be returned in this window, but the window where the listener is running should recieve these messages:
 

@@ -1,0 +1,100 @@
+# ROS2_Practice
+
+Create workspace
+
+	* In home directory, make a workspace: mkdir temp_workspace
+
+	* Enter workspace: cd temp_workspace
+
+	* Create a src folder: mkdir src
+
+	* Enter src folder: cd src
+
+
+Create package
+
+	* while in src, create a pkg. in this example we will create 'talker'
+
+	* use: ros2 pkg create --build-type ament_python talker 
+
+	* Create source file for our package 'talker': touch talker/talker/main.py
+
+
+Begin writing code for 'talker' package
+
+	* navigate to temp_workspace/src/talker/talker/main.py in vscode
+
+	* first import neccessary packages
+
+	* Next creade a class for the node
+
+	* Two definitions in the class:
+
+		* contructor
+
+			* define and create publisher node
+			
+			* create timer
+
+		* timer callback function
+
+			* create and assign msg variable
+			
+			* publish msg variable
+
+	* Create main function to call from the terminal
+
+		* initialize node
+		
+		* execute node
+		
+		* create shutdown
+
+
+Add dependencies
+
+	* navigate to temp_workspace/src/talker/package.xml
+
+	* above the <test_depend> lines, we will add one or more <exec_depend> lines
+
+		* add what packages we imported in main.py
+
+			<exec_depend>rclpy</exec_depend>
+  			<exec_depend>std_msgs</exec_depend>
+  
+
+Add entry point (So we can use ros2 run to execute the talker)
+
+	* navigate to temp_workspace/src/talker/setup.py
+
+	* Look for the entry_points line 
+
+		* inside the ={ ... } look for 'console_scripts':
+
+			* inside the [ ... ] add:
+
+				'talker = talker.main:main'
+
+					* first is our executable name (talker)
+
+					* then we assign this to our package name (talker)
+
+					* we use a dot to our source file name (main)
+
+					* and finalu the method name inside our source file (main)
+
+
+Build the package
+
+	* in terminal, navigate to the workspace directory (temp_workspace)
+
+	* run: colcon build
+
+
+Run the Package
+
+	* source setup files: . install/setup.bash
+
+	* in terminal, navigate to the workspace directory (temp_workspace)
+
+	* run: ros2 run talker talker

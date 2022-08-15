@@ -1,3 +1,6 @@
+BASED ON: https://youtu.be/Oz3LTRgRvtU
+
+
 Create workspace
 
 	* In home directory, make a workspace: mkdir temp_workspace

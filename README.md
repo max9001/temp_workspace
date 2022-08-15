@@ -87,7 +87,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 		install_requires=['setuptools']
 		
-  - to
+- to
   
   		install_requires=['setuptools','rclpy']
 

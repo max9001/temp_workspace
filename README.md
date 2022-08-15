@@ -101,8 +101,6 @@ Run the Package
 
 	* source setup files: . install/setup.bash
 
-	* in terminal, navigate to the workspace directory (temp_workspace)
-
 	* run: ros2 run talker talker
 
 Check if working

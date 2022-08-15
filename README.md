@@ -1,5 +1,6 @@
 BASED ON: https://youtu.be/Oz3LTRgRvtU
 
+So far, these notes go through creating a publisher. I left lots of comments in temp_workspace/src/talker/talker/main.py so you can hopefully understand what's going on. the tutorial also shows how to make a subscriber which I plan to do once I get this publisher working.
 
 Create workspace
 

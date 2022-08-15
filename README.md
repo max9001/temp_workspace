@@ -64,7 +64,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 		
   - create shutdown
   
-- **To see this code, click [here](blob/master/src/talker/talker/main.py)**
+- **To see this code, click [here](src/talker/talker/main.py)**
 
 
 ## Add dependencies

@@ -63,6 +63,8 @@ So far, these notes go through creating a publisher. I left lots of comments in 
   - execute node
 		
   - create shutdown
+  
+- **To see this code, click [here](temp_workspace/src/talker/talker/main.py)**
 
 
 ## Add dependencies
@@ -79,55 +81,77 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 ## Add entry point (So we can use ros2 run to execute the talker)
 
-	* navigate to temp_workspace/src/talker/setup.py
+- navigate to `temp_workspace/src/talker/setup.py`
 
-	* Look for the entry_points line 
+- Look for the `entry_points` line 
 
-		* inside the ={ ... } look for 'console_scripts':
+  - inside the `={ ... }` look for `'console_scripts':`
 
-			* inside the [ ... ] add:
+    - inside the `[ ... ]` add:
 
-				'talker = talker.main:main',
+			talker = talker.main:main',
 
-					* first is our executable name (talker)
+      - first is our executable name (talker)
 
-					* then we assign this to our package name (talker)
+      - then we assign this to our package name (talker)
 
-					* we use a dot to our source file name (main)
+      - we use a dot to our source file name (main)
 
-					* and finalu the method name inside our source file (main)
+      - and finaly the method name inside our source file (main)
 
 
 ## Build the package
 
-	* in terminal, navigate to the workspace directory (temp_workspace)
+- in terminal, navigate to the workspace directory (`temp_workspace`)
 
-	* run: colcon build
+- run: 
 
+		colcon build
+		
+- or, alternatively
+
+		colcon build --packages-select talker
 
 ## Run the Package
 
-	* open new terminal window
+- ~~open new terminal window~~
 
-	* in terminal, navigate to the workspace directory (temp_workspace)
+- in terminal, navigate to the workspace directory `temp_workspace`)
 
-	* source setup files: . install/setup.bash
+- source setup files: 
 
-	* run: ros2 run talker talker
+		. install/setup.bash
+
+- run: 
+
+		ros2 run talker talker
 
 ## Check if working
 
-	* New terminal window
+- ~~New terminal window~~
 
-	* in terminal, navigate to the workspace directory (temp_workspace)
+- in terminal, navigate to the workspace directory ('temp_workspace')
 
-	* run: ros2 topic list -t
+- run: 
 
-		* 'talker' should be in the topic list
+		ros2 topic list -t
 
-	* run: ros2 topic echo /talker
+  - 'talker' should be in the topic list
+ 		
+    `/talker [std_msgs/msg/String]`
 
-		*should publish data
+- run:
+
+		ros2 topic echo /talker
+
+  - should publish data:
+  
+    ```
+    data: Hello SCR! this is Max
+    ---
+    data: Hello SCR! this is Max
+    ---
+    ```
 
 
 

@@ -120,7 +120,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - ~~open new terminal window~~
 
-- in terminal, navigate to the workspace directory `temp_workspace`)
+- in terminal, navigate to the workspace directory (`temp_workspace`)
 
 - source setup files: 
 

@@ -140,7 +140,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 		ros2 topic list -t
 
-  - 'talker' should be in the topic list
+  - `talker` should be in the topic list
  		
     `/talker [std_msgs/msg/String]`
 
@@ -294,7 +294,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
     	ros2 topic list -t
 
-  - 'talker' should be in the topic list
+  - `talker` should be in the topic list
     
     `/talker [std_msgs/msg/String]`
 

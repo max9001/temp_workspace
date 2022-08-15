@@ -1,6 +1,6 @@
 #import neccessary packages
 import rclpy
-from rcply.node import Node
+from rclpy.node import Node
 from std_msgs.msg import String
 
 #create class for the node

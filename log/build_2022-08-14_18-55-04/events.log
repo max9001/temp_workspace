@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.002265] (talker) JobQueued: {'identifier': 'talker', 'dependencies': OrderedDict()}
+[0.002354] (talker) JobStarted: {'identifier': 'talker'}
+[0.099753] (-) TimerEvent: {}
+[0.200270] (-) TimerEvent: {}
+[0.300709] (-) TimerEvent: {}
+[0.401067] (-) TimerEvent: {}
+[0.502204] (-) TimerEvent: {}
+[0.602694] (-) TimerEvent: {}
+[0.703173] (-) TimerEvent: {}
+[0.803584] (-) TimerEvent: {}
+[0.903967] (-) TimerEvent: {}
+[1.004342] (-) TimerEvent: {}
+[1.104979] (-) TimerEvent: {}
+[1.205421] (-) TimerEvent: {}
+[1.305754] (-) TimerEvent: {}
+[1.406231] (-) TimerEvent: {}
+[1.457727] (talker) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/talker', 'build', '--build-base', '/home/jasper/dev/temp_workspace/build/talker/build', 'install', '--prefix', '/home/jasper/dev/temp_workspace/install/talker', '--record', '/home/jasper/dev/temp_workspace/build/talker/install.log', '--single-version-externally-managed'], 'cwd': '/home/jasper/dev/temp_workspace/src/talker', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jasper', 'SSH_AGENT_PID': '1210', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jasper', 'OLDPWD': '/home/jasper', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '914', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jasper/dev/temp_workspace/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jasper', 'JOURNAL_STREAM': '8:39731', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jasper', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/wlux:@/tmp/.ICE-unix/1248,unix/wlux:/tmp/.ICE-unix/1248', 'INVOCATION_ID': '3b4b56ffb56244ca9ec8b8b728eef210', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/247a2968_d8e2_498f_90c5_404091705bb9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.682', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jasper/dev/temp_workspace/install/talker:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jasper/dev/temp_workspace/build/talker', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jasper/dev/temp_workspace/install/talker/lib/python3.8/site-packages:/home/jasper/dev/temp_workspace/install/talker/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.506393] (-) TimerEvent: {}
+[1.606876] (-) TimerEvent: {}
+[1.707289] (-) TimerEvent: {}
+[1.792841] (talker) StderrLine: {'line': b"/home/jasper/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.793191] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.793398] (talker) StderrLine: {'line': b"/home/jasper/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[1.793530] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.807449] (-) TimerEvent: {}
+[1.883116] (talker) StdoutLine: {'line': b'running egg_info\n'}
+[1.896942] (talker) StdoutLine: {'line': b'writing ../../build/talker/talker.egg-info/PKG-INFO\n'}
+[1.897365] (talker) StdoutLine: {'line': b'writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt\n'}
+[1.897630] (talker) StdoutLine: {'line': b'writing entry points to ../../build/talker/talker.egg-info/entry_points.txt\n'}
+[1.897926] (talker) StdoutLine: {'line': b'writing requirements to ../../build/talker/talker.egg-info/requires.txt\n'}
+[1.898217] (talker) StdoutLine: {'line': b'writing top-level names to ../../build/talker/talker.egg-info/top_level.txt\n'}
+[1.907533] (-) TimerEvent: {}
+[1.927184] (talker) StdoutLine: {'line': b"reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[1.928315] (talker) StdoutLine: {'line': b"writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[1.928579] (talker) StdoutLine: {'line': b'running build\n'}
+[1.928920] (talker) StdoutLine: {'line': b'running build_py\n'}
+[1.929137] (talker) StdoutLine: {'line': b'copying talker/__init__.py -> /home/jasper/dev/temp_workspace/build/talker/build/lib/talker\n'}
+[1.929278] (talker) StdoutLine: {'line': b'copying talker/main.py -> /home/jasper/dev/temp_workspace/build/talker/build/lib/talker\n'}
+[1.929446] (talker) StdoutLine: {'line': b'running install\n'}
+[1.929606] (talker) StderrLine: {'line': b'/home/jasper/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.929717] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.937539] (talker) StdoutLine: {'line': b'running install_lib\n'}
+[1.951706] (talker) StdoutLine: {'line': b'copying /home/jasper/dev/temp_workspace/build/talker/build/lib/talker/__init__.py -> /home/jasper/dev/temp_workspace/install/talker/lib/python3.8/site-packages/talker\n'}
+[1.952092] (talker) StdoutLine: {'line': b'copying /home/jasper/dev/temp_workspace/build/talker/build/lib/talker/main.py -> /home/jasper/dev/temp_workspace/install/talker/lib/python3.8/site-packages/talker\n'}
+[1.952683] (talker) StdoutLine: {'line': b'running install_data\n'}
+[1.965813] (talker) StdoutLine: {'line': b'copying resource/talker -> /home/jasper/dev/temp_workspace/install/talker/share/ament_index/resource_index/packages\n'}
+[1.966266] (talker) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.980626] (talker) StdoutLine: {'line': b"removing '/home/jasper/dev/temp_workspace/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.981288] (talker) StdoutLine: {'line': b'Copying ../../build/talker/talker.egg-info to /home/jasper/dev/temp_workspace/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info\n'}
+[1.982603] (talker) StdoutLine: {'line': b'running install_scripts\n'}
+[2.007645] (-) TimerEvent: {}
+[2.054201] (talker) StdoutLine: {'line': b'Installing talker script to /home/jasper/dev/temp_workspace/install/talker/lib/talker\n'}
+[2.054697] (talker) StdoutLine: {'line': b"writing list of installed files to '/home/jasper/dev/temp_workspace/build/talker/install.log'\n"}
+[2.107803] (-) TimerEvent: {}
+[2.126085] (talker) CommandEnded: {'returncode': 0}
+[2.151648] (talker) JobEnded: {'identifier': 'talker', 'rc': 0}
+[2.152669] (-) EventReactorShutdown: {}

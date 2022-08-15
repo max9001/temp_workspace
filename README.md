@@ -83,6 +83,14 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 - navigate to `temp_workspace/src/talker/setup.py`
 
+- change your `install_requires` from
+
+		install_requires=['setuptools']
+		
+  - to
+  
+  		install_requires=['setuptools','rclpy']
+
 - Look for the `entry_points` line 
 
   - inside the `={ ... }` look for `'console_scripts':`

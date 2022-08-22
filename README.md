@@ -36,7 +36,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 ## Begin writing code for `talker` package
 
-- navigate to temp_workspace/src/talker/talker/main.py in vscode (`code .`)
+- navigate to `temp_workspace/src/talker/talker/main.py in vscode` (`code .`)
 
 - first import neccessary packages
 

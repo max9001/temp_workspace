@@ -23,6 +23,10 @@
   
   - Username/Password: Your email/password
 
+## Connect Pi and Computer to eachother via Internet
+
+- In the ethernet connection settings (`:gear:`) go to `IPv4` tab
+
 # ROS 2 Foxy Subscriber and Publisher (Python)
 
 So far, these notes go through creating a publisher. I left lots of comments in temp_workspace/src/talker/talker/main.py so you can hopefully understand what's going on. the tutorial also shows how to make a subscriber which I plan to do once I get this publisher working.

@@ -27,7 +27,7 @@
 
 - In the settings for your ethernet connection (:gear:) go to `IPv4` tab
 
-  - Change 'IPv4 method` to 'Shared to other computers`
+  - Change `IPv4 method` to `Shared to other computers`
   
 ## Commands in Terminal
 

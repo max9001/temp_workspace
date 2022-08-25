@@ -25,7 +25,7 @@
 
 ## Connect Pi and Computer to eachother via Internet
 
-- In the ethernet connection settings :gear: go to `IPv4` tab
+- In the ethernet connection settings (:gear:) go to `IPv4` tab
 
 # ROS 2 Foxy Subscriber and Publisher (Python)
 

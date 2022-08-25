@@ -15,7 +15,7 @@
   
   - Authentication: `Protected EAP (PEAP)`
   
-  - Check `No CA certificate is required`
+  - :ballot_box_with_check: `No CA certificate is required`
   
   - PEAP version: `Automatic`
   
@@ -26,6 +26,24 @@
 ## Connect Pi and Computer to eachother via Internet
 
 - In the settings for your ethernet connection (:gear:) go to `IPv4` tab
+
+  - Change 'IPv4 method` to 'Shared to other computers`
+  
+## Commands in Terminal
+
+- Show entries in the Adresss Resolution Protocol
+
+		arp -a
+		
+- Try and ping to the ip assigned to something named similar to `enx5c857e353ef4`
+
+		ssh ubuntu@10.153.0.1 
+		
+  - (IP may be different in your case)
+ 
+- Enter `yes` at the prompt
+
+- Login for `Telecom` Raspberry Pi is `rpi_rover`
 
 # ROS 2 Foxy Subscriber and Publisher (Python)
 

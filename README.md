@@ -1,3 +1,28 @@
+# Connect Pi to WiFi Using a Computer Running Ubuntu
+- Needs:
+  
+  - Pi
+  
+  - Ethernet / Adapter
+  
+  - WiFi Connection on a Computer Running Ubuntu
+
+## Connect Computer to WiFi
+
+- For `Student` WiFi at Saddleback Campus
+
+  - Security: `WPA & WPA2 Enterprise`
+  
+  - Authentication: `Protected EAP (PEAP)`
+  
+  - Check `No CA certificate is required`
+  
+  - PEAP version: `Automatic`
+  
+  - Inner authentication: `MSCHAPv2`
+  
+  - Username/Password: Your email/password
+
 # ROS 2 Foxy Subscriber and Publisher (Python)
 
 So far, these notes go through creating a publisher. I left lots of comments in temp_workspace/src/talker/talker/main.py so you can hopefully understand what's going on. the tutorial also shows how to make a subscriber which I plan to do once I get this publisher working.

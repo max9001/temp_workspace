@@ -1,0 +1,443 @@
+[0.000000] (-) TimerEvent: {}
+[0.000749] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001050] (listener) JobQueued: {'identifier': 'listener', 'dependencies': OrderedDict()}
+[0.002059] (service) JobQueued: {'identifier': 'service', 'dependencies': OrderedDict()}
+[0.002122] (talker) JobQueued: {'identifier': 'talker', 'dependencies': OrderedDict()}
+[0.002216] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.027530] (listener) JobStarted: {'identifier': 'listener'}
+[0.057894] (service) JobStarted: {'identifier': 'service'}
+[0.087671] (talker) JobStarted: {'identifier': 'talker'}
+[0.102109] (-) TimerEvent: {}
+[0.120949] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.123460] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.125015] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/temp_workspace/src/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/max/temp_workspace/src/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'C.UTF-8'), ('USER', 'max'), ('SSH_AGENT_PID', '1627'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '41017'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:42257'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/max/.local/bin:/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/max-MacBookAir:@/tmp/.ICE-unix/1665,unix/max-MacBookAir:/tmp/.ICE-unix/1665'), ('INVOCATION_ID', 'db0eb01b00994cbabf871aa7de9f7fd2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4165233d10.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/temp_workspace/src/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.202322] (-) TimerEvent: {}
+[0.302933] (-) TimerEvent: {}
+[0.403361] (-) TimerEvent: {}
+[0.503741] (-) TimerEvent: {}
+[0.604127] (-) TimerEvent: {}
+[0.704653] (-) TimerEvent: {}
+[0.805269] (-) TimerEvent: {}
+[0.906708] (-) TimerEvent: {}
+[1.007092] (-) TimerEvent: {}
+[1.107900] (-) TimerEvent: {}
+[1.209236] (-) TimerEvent: {}
+[1.310852] (-) TimerEvent: {}
+[1.411312] (-) TimerEvent: {}
+[1.511659] (-) TimerEvent: {}
+[1.612265] (-) TimerEvent: {}
+[1.715051] (-) TimerEvent: {}
+[1.780754] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.781607] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.782026] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.782842] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.784566] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.785660] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.786183] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.788646] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.789136] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.789500] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.794616] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.795265] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.795456] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.795607] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.795757] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.795912] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.796055] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.796217] (interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.796369] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.796505] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.796783] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.797026] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.797157] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/max/temp_workspace/src/build/interfaces\n'}
+[1.797306] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.797482] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.815409] (-) TimerEvent: {}
+[1.916253] (-) TimerEvent: {}
+[2.018391] (-) TimerEvent: {}
+[2.120062] (-) TimerEvent: {}
+[2.222536] (-) TimerEvent: {}
+[2.324380] (-) TimerEvent: {}
+[2.440899] (-) TimerEvent: {}
+[2.541269] (-) TimerEvent: {}
+[2.613139] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.641374] (-) TimerEvent: {}
+[2.668520] (interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_distance__functions.c.o\x1b[0m\n'}
+[2.696793] (interfaces) StdoutLine: {'line': b'[  9%] Built target interfaces__cpp\n'}
+[2.741484] (-) TimerEvent: {}
+[2.750892] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.771537] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.775961] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.820628] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.841587] (-) TimerEvent: {}
+[2.943245] (-) TimerEvent: {}
+[3.043625] (-) TimerEvent: {}
+[3.049545] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_generator_c\n'}
+[3.143728] (-) TimerEvent: {}
+[3.185443] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.243827] (-) TimerEvent: {}
+[3.348867] (-) TimerEvent: {}
+[3.458440] (-) TimerEvent: {}
+[3.558824] (-) TimerEvent: {}
+[3.659201] (-) TimerEvent: {}
+[3.759719] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.759986] (-) TimerEvent: {}
+[3.838187] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/get_distance__type_support.cpp.o\x1b[0m\n'}
+[3.860126] (-) TimerEvent: {}
+[3.866760] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.892253] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.937181] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/get_distance__type_support.cpp.o\x1b[0m\n'}
+[3.955737] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/get_distance__type_support.cpp.o\x1b[0m\n'}
+[3.960228] (-) TimerEvent: {}
+[4.066734] (-) TimerEvent: {}
+[4.100382] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.167177] (-) TimerEvent: {}
+[4.268370] (-) TimerEvent: {}
+[4.368965] (-) TimerEvent: {}
+[4.375444] (listener) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/listener', 'build', '--build-base', '/home/max/temp_workspace/src/build/listener/build', 'install', '--prefix', '/home/max/temp_workspace/src/install/listener', '--record', '/home/max/temp_workspace/src/build/listener/install.log', '--single-version-externally-managed'], 'cwd': '/home/max/temp_workspace/src/listener', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'C.UTF-8', 'USER': 'max', 'SSH_AGENT_PID': '1627', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/max', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.70.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '41017', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'max', 'JOURNAL_STREAM': '8:42257', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'max', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/max/.local/bin:/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/max-MacBookAir:@/tmp/.ICE-unix/1665,unix/max-MacBookAir:/tmp/.ICE-unix/1665', 'INVOCATION_ID': 'db0eb01b00994cbabf871aa7de9f7fd2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4165233d10.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/max/temp_workspace/src/build/listener', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/max/temp_workspace/src/install/listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.469519] (-) TimerEvent: {}
+[4.490936] (service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/service', 'build', '--build-base', '/home/max/temp_workspace/src/build/service/build', 'install', '--prefix', '/home/max/temp_workspace/src/install/service', '--record', '/home/max/temp_workspace/src/build/service/install.log', '--single-version-externally-managed'], 'cwd': '/home/max/temp_workspace/src/service', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'C.UTF-8', 'USER': 'max', 'SSH_AGENT_PID': '1627', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/max', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.70.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '41017', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'max', 'JOURNAL_STREAM': '8:42257', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'max', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/max/.local/bin:/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/max-MacBookAir:@/tmp/.ICE-unix/1665,unix/max-MacBookAir:/tmp/.ICE-unix/1665', 'INVOCATION_ID': 'db0eb01b00994cbabf871aa7de9f7fd2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4165233d10.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/max/temp_workspace/src/build/service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/max/temp_workspace/src/install/service/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.502091] (interfaces) StdoutLine: {'line': b'[ 38%] Built target interfaces__rosidl_typesupport_c\n'}
+[4.569643] (-) TimerEvent: {}
+[4.621775] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.649428] (talker) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/talker', 'build', '--build-base', '/home/max/temp_workspace/src/build/talker/build', 'install', '--prefix', '/home/max/temp_workspace/src/install/talker', '--record', '/home/max/temp_workspace/src/build/talker/install.log', '--single-version-externally-managed'], 'cwd': '/home/max/temp_workspace/src/talker', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'C.UTF-8', 'USER': 'max', 'SSH_AGENT_PID': '1627', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/max', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.70.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1440', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '41017', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'max', 'JOURNAL_STREAM': '8:42257', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'max', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/max/.local/bin:/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/max-MacBookAir:@/tmp/.ICE-unix/1665,unix/max-MacBookAir:/tmp/.ICE-unix/1665', 'INVOCATION_ID': 'db0eb01b00994cbabf871aa7de9f7fd2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4165233d10.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/max/temp_workspace/src/build/talker', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/max/temp_workspace/src/install/talker/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.672901] (-) TimerEvent: {}
+[4.773937] (-) TimerEvent: {}
+[4.778348] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.874039] (-) TimerEvent: {}
+[4.976367] (-) TimerEvent: {}
+[5.029913] (interfaces) StdoutLine: {'line': b'[ 45%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[5.076479] (-) TimerEvent: {}
+[5.184737] (-) TimerEvent: {}
+[5.229117] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.285960] (-) TimerEvent: {}
+[5.290366] (listener) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.290865] (listener) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.291249] (listener) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[5.291571] (listener) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.317197] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/get_distance__type_support.cpp.o\x1b[0m\n'}
+[5.386085] (-) TimerEvent: {}
+[5.480680] (listener) StdoutLine: {'line': b'running egg_info\n'}
+[5.481966] (listener) StdoutLine: {'line': b'creating ../build/listener/listener.egg-info\n'}
+[5.486187] (-) TimerEvent: {}
+[5.509618] (listener) StdoutLine: {'line': b'writing ../build/listener/listener.egg-info/PKG-INFO\n'}
+[5.509986] (listener) StdoutLine: {'line': b'writing dependency_links to ../build/listener/listener.egg-info/dependency_links.txt\n'}
+[5.510194] (listener) StdoutLine: {'line': b'writing entry points to ../build/listener/listener.egg-info/entry_points.txt\n'}
+[5.510467] (listener) StdoutLine: {'line': b'writing requirements to ../build/listener/listener.egg-info/requires.txt\n'}
+[5.510645] (listener) StdoutLine: {'line': b'writing top-level names to ../build/listener/listener.egg-info/top_level.txt\n'}
+[5.520691] (listener) StdoutLine: {'line': b"writing manifest file '../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[5.556062] (service) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.556432] (service) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.557899] (service) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[5.558144] (service) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.586294] (-) TimerEvent: {}
+[5.628187] (listener) StdoutLine: {'line': b"reading manifest file '../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[5.629898] (listener) StdoutLine: {'line': b"writing manifest file '../build/listener/listener.egg-info/SOURCES.txt'\n"}
+[5.630365] (listener) StdoutLine: {'line': b'running build\n'}
+[5.630616] (listener) StdoutLine: {'line': b'running build_py\n'}
+[5.630900] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/listener/build\n'}
+[5.631129] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/listener/build/lib\n'}
+[5.631299] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/listener/build/lib/listener\n'}
+[5.631462] (listener) StdoutLine: {'line': b'copying listener/main.py -> /home/max/temp_workspace/src/build/listener/build/lib/listener\n'}
+[5.637336] (listener) StdoutLine: {'line': b'copying listener/__init__.py -> /home/max/temp_workspace/src/build/listener/build/lib/listener\n'}
+[5.638155] (listener) StdoutLine: {'line': b'running install\n'}
+[5.642353] (listener) StderrLine: {'line': b'/home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.642740] (listener) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.685002] (listener) StdoutLine: {'line': b'running install_lib\n'}
+[5.686388] (-) TimerEvent: {}
+[5.774821] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/listener/lib/python3.8/site-packages/listener\n'}
+[5.775427] (listener) StdoutLine: {'line': b'copying /home/max/temp_workspace/src/build/listener/build/lib/listener/main.py -> /home/max/temp_workspace/src/install/listener/lib/python3.8/site-packages/listener\n'}
+[5.781057] (listener) StdoutLine: {'line': b'copying /home/max/temp_workspace/src/build/listener/build/lib/listener/__init__.py -> /home/max/temp_workspace/src/install/listener/lib/python3.8/site-packages/listener\n'}
+[5.781374] (service) StdoutLine: {'line': b'running egg_info\n'}
+[5.782722] (service) StdoutLine: {'line': b'creating ../build/service/service.egg-info\n'}
+[5.786498] (-) TimerEvent: {}
+[5.789061] (listener) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/src/install/listener/lib/python3.8/site-packages/listener/main.py to main.cpython-38.pyc\n'}
+[5.789918] (listener) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/src/install/listener/lib/python3.8/site-packages/listener/__init__.py to __init__.cpython-38.pyc\n'}
+[5.790409] (listener) StdoutLine: {'line': b'running install_data\n'}
+[5.832553] (service) StdoutLine: {'line': b'writing ../build/service/service.egg-info/PKG-INFO\n'}
+[5.833065] (service) StdoutLine: {'line': b'writing dependency_links to ../build/service/service.egg-info/dependency_links.txt\n'}
+[5.836319] (service) StdoutLine: {'line': b'writing entry points to ../build/service/service.egg-info/entry_points.txt\n'}
+[5.836515] (service) StdoutLine: {'line': b'writing requirements to ../build/service/service.egg-info/requires.txt\n'}
+[5.836678] (service) StdoutLine: {'line': b'writing top-level names to ../build/service/service.egg-info/top_level.txt\n'}
+[5.836861] (service) StdoutLine: {'line': b"writing manifest file '../build/service/service.egg-info/SOURCES.txt'\n"}
+[5.879676] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/listener/share/ament_index\n'}
+[5.880056] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/listener/share/ament_index/resource_index\n'}
+[5.880298] (listener) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/listener/share/ament_index/resource_index/packages\n'}
+[5.880479] (listener) StdoutLine: {'line': b'copying resource/listener -> /home/max/temp_workspace/src/install/listener/share/ament_index/resource_index/packages\n'}
+[5.880723] (listener) StdoutLine: {'line': b'copying package.xml -> /home/max/temp_workspace/src/install/listener/share/listener\n'}
+[5.880912] (listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.886603] (-) TimerEvent: {}
+[5.921202] (service) StdoutLine: {'line': b"reading manifest file '../build/service/service.egg-info/SOURCES.txt'\n"}
+[5.923207] (service) StdoutLine: {'line': b"writing manifest file '../build/service/service.egg-info/SOURCES.txt'\n"}
+[5.923789] (service) StdoutLine: {'line': b'running build\n'}
+[5.924278] (service) StdoutLine: {'line': b'running build_py\n'}
+[5.924757] (service) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/service/build\n'}
+[5.925121] (service) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/service/build/lib\n'}
+[5.925301] (service) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/service/build/lib/service\n'}
+[5.925495] (service) StdoutLine: {'line': b'copying service/main.py -> /home/max/temp_workspace/src/build/service/build/lib/service\n'}
+[5.925677] (service) StdoutLine: {'line': b'copying service/__init__.py -> /home/max/temp_workspace/src/build/service/build/lib/service\n'}
+[5.925815] (service) StdoutLine: {'line': b'running install\n'}
+[5.926024] (service) StderrLine: {'line': b'/home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.926201] (service) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.942346] (service) StdoutLine: {'line': b'running install_lib\n'}
+[5.969776] (service) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/service/lib/python3.8/site-packages/service\n'}
+[5.970196] (service) StdoutLine: {'line': b'copying /home/max/temp_workspace/src/build/service/build/lib/service/main.py -> /home/max/temp_workspace/src/install/service/lib/python3.8/site-packages/service\n'}
+[5.970398] (service) StdoutLine: {'line': b'copying /home/max/temp_workspace/src/build/service/build/lib/service/__init__.py -> /home/max/temp_workspace/src/install/service/lib/python3.8/site-packages/service\n'}
+[5.971000] (service) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/src/install/service/lib/python3.8/site-packages/service/main.py to main.cpython-38.pyc\n'}
+[5.971436] (service) StderrLine: {'line': b'  File "/home/max/temp_workspace/src/install/service/lib/python3.8/site-packages/service/main.py", line 47\n'}
+[5.971643] (service) StderrLine: {'line': b'    def main(args = none)\n'}
+[5.971866] (service) StderrLine: {'line': b'                        ^\n'}
+[5.972037] (service) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[5.972212] (service) StderrLine: {'line': b'\n'}
+[5.972386] (service) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/src/install/service/lib/python3.8/site-packages/service/__init__.py to __init__.cpython-38.pyc\n'}
+[5.972580] (service) StdoutLine: {'line': b'running install_data\n'}
+[5.986715] (-) TimerEvent: {}
+[5.998582] (service) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/service/share/ament_index\n'}
+[5.998990] (service) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/service/share/ament_index/resource_index\n'}
+[5.999245] (service) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/service/share/ament_index/resource_index/packages\n'}
+[5.999437] (service) StdoutLine: {'line': b'copying resource/service -> /home/max/temp_workspace/src/install/service/share/ament_index/resource_index/packages\n'}
+[5.999858] (service) StdoutLine: {'line': b'copying package.xml -> /home/max/temp_workspace/src/install/service/share/service\n'}
+[6.000043] (service) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.015858] (listener) StdoutLine: {'line': b'Copying ../build/listener/listener.egg-info to /home/max/temp_workspace/src/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info\n'}
+[6.018334] (listener) StdoutLine: {'line': b'running install_scripts\n'}
+[6.036466] (service) StdoutLine: {'line': b'Copying ../build/service/service.egg-info to /home/max/temp_workspace/src/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info\n'}
+[6.038597] (service) StdoutLine: {'line': b'running install_scripts\n'}
+[6.086829] (-) TimerEvent: {}
+[6.179200] (service) StdoutLine: {'line': b'Installing service script to /home/max/temp_workspace/src/install/service/lib/service\n'}
+[6.179850] (service) StdoutLine: {'line': b"writing list of installed files to '/home/max/temp_workspace/src/build/service/install.log'\n"}
+[6.186941] (-) TimerEvent: {}
+[6.277310] (service) CommandEnded: {'returncode': 0}
+[6.288856] (-) TimerEvent: {}
+[6.325982] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.361668] (interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.388896] (-) TimerEvent: {}
+[6.391634] (listener) StdoutLine: {'line': b'Installing listener script to /home/max/temp_workspace/src/install/listener/lib/listener\n'}
+[6.391908] (listener) StdoutLine: {'line': b"writing list of installed files to '/home/max/temp_workspace/src/build/listener/install.log'\n"}
+[6.394067] (service) JobEnded: {'identifier': 'service', 'rc': 0}
+[6.477064] (talker) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.477458] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.478345] (talker) StderrLine: {'line': b"/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[6.478649] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.489121] (-) TimerEvent: {}
+[6.543099] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.562677] (listener) CommandEnded: {'returncode': 0}
+[6.591324] (-) TimerEvent: {}
+[6.600187] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/get_distance__type_support.c.o\x1b[0m\n'}
+[6.636774] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.645611] (listener) JobEnded: {'identifier': 'listener', 'rc': 0}
+[6.684923] (talker) StdoutLine: {'line': b'running egg_info\n'}
+[6.685246] (talker) StdoutLine: {'line': b'creating ../build/talker/talker.egg-info\n'}
+[6.693332] (-) TimerEvent: {}
+[6.711143] (talker) StdoutLine: {'line': b'writing ../build/talker/talker.egg-info/PKG-INFO\n'}
+[6.711439] (talker) StdoutLine: {'line': b'writing dependency_links to ../build/talker/talker.egg-info/dependency_links.txt\n'}
+[6.712091] (talker) StdoutLine: {'line': b'writing entry points to ../build/talker/talker.egg-info/entry_points.txt\n'}
+[6.712353] (talker) StdoutLine: {'line': b'writing requirements to ../build/talker/talker.egg-info/requires.txt\n'}
+[6.712564] (talker) StdoutLine: {'line': b'writing top-level names to ../build/talker/talker.egg-info/top_level.txt\n'}
+[6.714300] (talker) StdoutLine: {'line': b"writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[6.727919] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.746440] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.760290] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.773855] (talker) StdoutLine: {'line': b"reading manifest file '../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[6.775613] (talker) StdoutLine: {'line': b"writing manifest file '../build/talker/talker.egg-info/SOURCES.txt'\n"}
+[6.775987] (talker) StdoutLine: {'line': b'running build\n'}
+[6.776250] (talker) StdoutLine: {'line': b'running build_py\n'}
+[6.776587] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/talker/build\n'}
+[6.776857] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/talker/build/lib\n'}
+[6.777133] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/build/talker/build/lib/talker\n'}
+[6.777403] (talker) StdoutLine: {'line': b'copying talker/main.py -> /home/max/temp_workspace/src/build/talker/build/lib/talker\n'}
+[6.778109] (talker) StdoutLine: {'line': b'copying talker/__init__.py -> /home/max/temp_workspace/src/build/talker/build/lib/talker\n'}
+[6.778654] (talker) StdoutLine: {'line': b'running install\n'}
+[6.778994] (talker) StderrLine: {'line': b'/home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.779244] (talker) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.790999] (talker) StdoutLine: {'line': b'running install_lib\n'}
+[6.793431] (-) TimerEvent: {}
+[6.816173] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/talker/lib/python3.8/site-packages/talker\n'}
+[6.816746] (talker) StdoutLine: {'line': b'copying /home/max/temp_workspace/src/build/talker/build/lib/talker/main.py -> /home/max/temp_workspace/src/install/talker/lib/python3.8/site-packages/talker\n'}
+[6.821840] (talker) StdoutLine: {'line': b'copying /home/max/temp_workspace/src/build/talker/build/lib/talker/__init__.py -> /home/max/temp_workspace/src/install/talker/lib/python3.8/site-packages/talker\n'}
+[6.822059] (talker) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/src/install/talker/lib/python3.8/site-packages/talker/main.py to main.cpython-38.pyc\n'}
+[6.822234] (talker) StdoutLine: {'line': b'byte-compiling /home/max/temp_workspace/src/install/talker/lib/python3.8/site-packages/talker/__init__.py to __init__.cpython-38.pyc\n'}
+[6.822400] (talker) StdoutLine: {'line': b'running install_data\n'}
+[6.822557] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[6.842870] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/talker/share/ament_index\n'}
+[6.843228] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/talker/share/ament_index/resource_index\n'}
+[6.843418] (talker) StdoutLine: {'line': b'creating /home/max/temp_workspace/src/install/talker/share/ament_index/resource_index/packages\n'}
+[6.843575] (talker) StdoutLine: {'line': b'copying resource/talker -> /home/max/temp_workspace/src/install/talker/share/ament_index/resource_index/packages\n'}
+[6.843808] (talker) StdoutLine: {'line': b'copying package.xml -> /home/max/temp_workspace/src/install/talker/share/talker\n'}
+[6.843970] (talker) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.867985] (talker) StdoutLine: {'line': b'Copying ../build/talker/talker.egg-info to /home/max/temp_workspace/src/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info\n'}
+[6.869780] (talker) StdoutLine: {'line': b'running install_scripts\n'}
+[6.893540] (-) TimerEvent: {}
+[6.990154] (talker) StdoutLine: {'line': b'Installing talker script to /home/max/temp_workspace/src/install/talker/lib/talker\n'}
+[6.991184] (talker) StdoutLine: {'line': b"writing list of installed files to '/home/max/temp_workspace/src/build/talker/install.log'\n"}
+[6.993649] (-) TimerEvent: {}
+[7.066683] (talker) CommandEnded: {'returncode': 0}
+[7.084277] (talker) JobEnded: {'identifier': 'talker', 'rc': 0}
+[7.093735] (-) TimerEvent: {}
+[7.194025] (-) TimerEvent: {}
+[7.286025] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.294152] (-) TimerEvent: {}
+[7.307227] (interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/get_distance__type_support_c.cpp.o\x1b[0m\n'}
+[7.394266] (-) TimerEvent: {}
+[7.494630] (-) TimerEvent: {}
+[7.595023] (-) TimerEvent: {}
+[7.695423] (-) TimerEvent: {}
+[7.795807] (-) TimerEvent: {}
+[7.802218] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.895937] (-) TimerEvent: {}
+[7.935794] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.962013] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[7.985659] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.996038] (-) TimerEvent: {}
+[8.096387] (-) TimerEvent: {}
+[8.196735] (-) TimerEvent: {}
+[8.297108] (-) TimerEvent: {}
+[8.397458] (-) TimerEvent: {}
+[8.497815] (-) TimerEvent: {}
+[8.598166] (-) TimerEvent: {}
+[8.698543] (-) TimerEvent: {}
+[8.709296] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[8.730795] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__python\x1b[0m\n'}
+[8.756507] (interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_get_distance_s.c.o\x1b[0m\n'}
+[8.798659] (-) TimerEvent: {}
+[8.892646] (interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so\x1b[0m\n'}
+[8.898769] (-) TimerEvent: {}
+[8.949054] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__python\n'}
+[8.969975] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.970612] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.970968] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.001001] (-) TimerEvent: {}
+[9.009186] (interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.009478] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.025766] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.104916] (-) TimerEvent: {}
+[9.205375] (-) TimerEvent: {}
+[9.226688] (interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.226980] (interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.233365] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.303872] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[9.305585] (-) TimerEvent: {}
+[9.308206] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.350295] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.365793] (interfaces) CommandEnded: {'returncode': 0}
+[9.405748] (-) TimerEvent: {}
+[9.426232] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[9.442686] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/temp_workspace/src/build/interfaces'], 'cwd': '/home/max/temp_workspace/src/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'C.UTF-8'), ('USER', 'max'), ('SSH_AGENT_PID', '1627'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '41017'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:42257'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/max/.local/bin:/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/max-MacBookAir:@/tmp/.ICE-unix/1665,unix/max-MacBookAir:/tmp/.ICE-unix/1665'), ('INVOCATION_ID', 'db0eb01b00994cbabf871aa7de9f7fd2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4165233d10.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/temp_workspace/src/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.459032] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.459523] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[9.459737] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces\n'}
+[9.459935] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv\n'}
+[9.460146] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail\n'}
+[9.460364] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__functions.c\n'}
+[9.460572] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__struct.h\n'}
+[9.460824] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__functions.h\n'}
+[9.461115] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__type_support.h\n'}
+[9.461300] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/get_distance.h\n'}
+[9.461460] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg\n'}
+[9.461627] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.461824] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[9.461984] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[9.462483] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[9.463284] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[9.463569] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces\n'}
+[9.463754] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv\n'}
+[9.464031] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail\n'}
+[9.464186] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__rosidl_typesupport_fastrtps_c.h\n'}
+[9.464333] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg\n'}
+[9.464498] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.464789] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.465625] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.465904] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces\n'}
+[9.466127] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv\n'}
+[9.466313] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail\n'}
+[9.466589] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.466760] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/dds_fastrtps\n'}
+[9.466925] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg\n'}
+[9.467089] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.467349] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.468175] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.468415] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces\n'}
+[9.468660] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv\n'}
+[9.468908] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail\n'}
+[9.469087] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__type_support.c\n'}
+[9.469284] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__rosidl_typesupport_introspection_c.h\n'}
+[9.469433] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg\n'}
+[9.469599] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.470336] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.470992] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.471686] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[9.472268] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.472616] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces\n'}
+[9.472802] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv\n'}
+[9.473067] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail\n'}
+[9.473382] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__struct.hpp\n'}
+[9.473654] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__traits.hpp\n'}
+[9.474025] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__builder.hpp\n'}
+[9.474361] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/get_distance.hpp\n'}
+[9.474547] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces\n'}
+[9.474709] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv\n'}
+[9.474887] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail\n'}
+[9.475065] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.475223] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/include/interfaces/srv/detail/get_distance__type_support.cpp\n'}
+[9.475437] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.475819] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.476553] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[9.477290] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.477684] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[9.477969] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[9.478145] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[9.505816] (-) TimerEvent: {}
+[9.520080] (interfaces) StdoutLine: {'line': b"Compiling '/home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...\n"}
+[9.526365] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv\n'}
+[9.526675] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_get_distance_s.c\n'}
+[9.526866] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_get_distance.py\n'}
+[9.527032] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py\n'}
+[9.527560] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.528733] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.531024] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.531609] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.532443] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.533428] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.533973] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__python.so\n'}
+[9.534876] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/src/install/interfaces/lib/libinterfaces__python.so" to ""\n'}
+[9.535106] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/srv/GetDistance.idl\n'}
+[9.535348] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/srv/GetDistance.srv\n'}
+[9.535637] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/srv/GetDistance_Request.msg\n'}
+[9.535939] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/srv/GetDistance_Response.msg\n'}
+[9.536175] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[9.536404] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[9.536699] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[9.536881] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[9.537112] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/path.sh\n'}
+[9.537279] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[9.537493] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/local_setup.bash\n'}
+[9.537807] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/local_setup.sh\n'}
+[9.537978] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[9.538207] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[9.538404] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/package.dsv\n'}
+[9.538554] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[9.538888] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[9.539101] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.540017] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.540250] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.540787] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.541066] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.541698] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.542228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.542524] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.543070] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.543325] (interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.543568] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.543791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.544099] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.545168] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.545464] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.545702] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.545905] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.546101] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[9.546325] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[9.546536] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/src/install/interfaces/share/interfaces/package.xml\n'}
+[9.548535] (interfaces) CommandEnded: {'returncode': 0}
+[9.605993] (-) TimerEvent: {}
+[9.711911] (-) TimerEvent: {}
+[9.730669] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[9.732548] (-) EventReactorShutdown: {}

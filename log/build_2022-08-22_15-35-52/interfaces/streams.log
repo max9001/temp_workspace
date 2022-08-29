@@ -1,0 +1,10 @@
+[0.017s] Invoking command in '/home/max/temp_workspace/build/interfaces': CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/opt/ros/foxy /usr/bin/cmake /home/max/temp_workspace/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/max/temp_workspace/install/interfaces
+[0.036s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.274s] CMake Error at CMakeLists.txt:27 (rosidl_generate_interfaces):
+[0.274s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.274s] 
+[0.275s] 
+[0.275s] -- Configuring incomplete, errors occurred!
+[0.275s] See also "/home/max/temp_workspace/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.277s] Invoked command in '/home/max/temp_workspace/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/opt/ros/foxy /usr/bin/cmake /home/max/temp_workspace/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/max/temp_workspace/install/interfaces

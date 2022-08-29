@@ -1,0 +1,34 @@
+[2.320s] Invoking command in '/home/max/temp_workspace/src/service': PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed
+[3.030s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.030s]   warnings.warn(
+[3.031s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.031s]   warnings.warn(
+[3.171s] running egg_info
+[3.193s] writing ../../build/service/service.egg-info/PKG-INFO
+[3.194s] writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt
+[3.194s] writing entry points to ../../build/service/service.egg-info/entry_points.txt
+[3.194s] writing requirements to ../../build/service/service.egg-info/requires.txt
+[3.194s] writing top-level names to ../../build/service/service.egg-info/top_level.txt
+[3.236s] reading manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[3.237s] writing manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[3.238s] running build
+[3.238s] running build_py
+[3.239s] running install
+[3.239s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.239s]   warnings.warn(
+[3.245s] running install_lib
+[3.260s] byte-compiling /home/max/temp_workspace/install/service/lib/python3.8/site-packages/service/main.py to main.cpython-38.pyc
+[3.261s]   File "/home/max/temp_workspace/install/service/lib/python3.8/site-packages/service/main.py", line 47
+[3.261s]     def main(args = none)
+[3.261s]                         ^
+[3.261s] SyntaxError: invalid syntax
+[3.262s] 
+[3.262s] running install_data
+[3.276s] running install_egg_info
+[3.311s] removing '/home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info' (and everything under it)
+[3.312s] Copying ../../build/service/service.egg-info to /home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info
+[3.312s] running install_scripts
+[3.416s] Installing client script to /home/max/temp_workspace/install/service/lib/service
+[3.417s] Installing service script to /home/max/temp_workspace/install/service/lib/service
+[3.417s] writing list of installed files to '/home/max/temp_workspace/build/service/install.log'
+[3.493s] Invoked command in '/home/max/temp_workspace/src/service' returned '0': PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed

@@ -1,0 +1,6 @@
+#Request:
+int64 x
+int64 y
+---
+#Response
+int64 distance

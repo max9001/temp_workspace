@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/max/temp_workspace/src/interfaces:srv/GetDistance.srv"
+  ]
+}

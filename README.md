@@ -1,3 +1,54 @@
+# Connect Pi to WiFi Using a Computer Running Ubuntu
+- Needs:
+  
+  - Pi
+  
+  - Ethernet / Adapter
+  
+  - WiFi Connection on a Computer Running Ubuntu
+
+## Connect Computer to WiFi
+
+- For `Student` WiFi at Saddleback Campus
+
+  - Security: `WPA & WPA2 Enterprise`
+  
+  - Authentication: `Protected EAP (PEAP)`
+  
+  - :ballot_box_with_check: `No CA certificate is required`
+  
+  - PEAP version: `Automatic`
+  
+  - Inner authentication: `MSCHAPv2`
+  
+  - Username/Password: Your email/password
+
+## Connect Pi and Computer to eachother via Internet
+
+- In the settings for your ethernet connection (:gear:) go to `IPv4` tab
+
+  - Change `IPv4 method` to `Shared to other computers`
+  
+## Commands in Terminal
+
+- Show entries in the Adresss Resolution Protocol
+
+		arp -a
+		
+- Try and ping to the ip assigned to something named similar to `enx5c857e353ef4`
+
+		ssh ubuntu@10.153.0.1 
+		
+  - (IP may be different in your case)
+ 
+- Enter `yes` at the prompt
+
+- Login for `Telecom` Raspberry Pi is `rpi_rover`
+
+# ROS 2 Foxy Installation
+- https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
+- https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html#add-sourcing-to-your-shell-startup-script
+
 # ROS 2 Foxy Subscriber and Publisher (Python)
 
 So far, these notes go through creating a publisher. I left lots of comments in temp_workspace/src/talker/talker/main.py so you can hopefully understand what's going on. the tutorial also shows how to make a subscriber which I plan to do once I get this publisher working.
@@ -36,7 +87,7 @@ So far, these notes go through creating a publisher. I left lots of comments in 
 
 ## Begin writing code for `talker` package
 
-- navigate to temp_workspace/src/talker/talker/main.py in vscode (`code .`)
+- navigate to `temp_workspace/src/talker/talker/main.py in vscode` (`code .`)
 
 - first import neccessary packages
 

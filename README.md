@@ -45,6 +45,10 @@
 
 - Login for `Telecom` Raspberry Pi is `rpi_rover`
 
+# ROS 2 Foxy Installation
+- https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
+- https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html#add-sourcing-to-your-shell-startup-script
+
 # ROS 2 Foxy Subscriber and Publisher (Python)
 
 So far, these notes go through creating a publisher. I left lots of comments in temp_workspace/src/talker/talker/main.py so you can hopefully understand what's going on. the tutorial also shows how to make a subscriber which I plan to do once I get this publisher working.

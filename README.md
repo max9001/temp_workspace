@@ -36,6 +36,8 @@
   - In PC network settings, make WiFi adapter share to ethernet.
   - Connect to router with another device (WiFi or ethernet) to access routerlogin.net interface.
   - On router, go to Advanced > Setup > Internet Setup > point Default Gateway to ethernet adapter IP address of PC. > Apply
+- Connect Pi to WiFi
+  - https://arstech.net/raspberry-pi-4-ubuntu-wifi/
   
 ## Commands in Terminal
 

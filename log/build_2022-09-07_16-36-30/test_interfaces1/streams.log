@@ -1,0 +1,58 @@
+[0.022s] Invoking command in '/home/max/temp_workspace/build/test_interfaces1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4
+[0.056s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.082s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.313s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.321s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.557s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.756s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.756s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.757s]   test_interfaces1 --arguments-file
+[0.757s]   /home/max/temp_workspace/build/test_interfaces1/rosidl_adapter__arguments__test_interfaces1.json
+[0.757s]   --output-dir
+[0.757s]   /home/max/temp_workspace/build/test_interfaces1/rosidl_adapter/test_interfaces1
+[0.757s]   --output-file
+[0.758s]   /home/max/temp_workspace/build/test_interfaces1/rosidl_adapter/test_interfaces1.idls)
+[0.758s]   returned error code 1:
+[0.758s] 
+[0.758s]   Error processing 'float distance' of
+[0.758s]   'test_interfaces1/GetDistance_Response': ''float' is an invalid message
+[0.759s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.759s] 
+[0.759s]   Traceback (most recent call last):
+[0.759s] 
+[0.759s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.760s]       return _run_code(code, main_globals, None,
+[0.760s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.760s]       exec(code, run_globals)
+[0.760s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.760s]       sys.exit(main())
+[0.760s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.761s]       abs_idl_file = convert_to_idl(
+[0.761s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.761s]       return convert_srv_to_idl(
+[0.761s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.761s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.761s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 856, in parse_service_string
+[0.762s]       response_message = parse_message_string(
+[0.762s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[0.762s]       Type(type_string, context_package_name=pkg_name),
+[0.762s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[0.762s]       super(Type, self).__init__(
+[0.762s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.763s]       raise InvalidResourceName(
+[0.763s] 
+[0.763s]   rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message
+[0.763s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.763s] 
+[0.763s] Call Stack (most recent call first):
+[0.763s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.764s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.764s] 
+[0.764s] 
+[0.764s] -- Configuring incomplete, errors occurred!
+[0.764s] See also "/home/max/temp_workspace/build/test_interfaces1/CMakeFiles/CMakeOutput.log".
+[0.768s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.771s] Invoked command in '/home/max/temp_workspace/build/test_interfaces1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4

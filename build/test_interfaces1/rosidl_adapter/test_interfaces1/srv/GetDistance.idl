@@ -8,9 +8,9 @@ module test_interfaces1 {
     @verbatim (language="comment", text=
       "Request:")
     struct GetDistance_Request {
-      int64 x;
+      int64 a;
 
-      int64 y;
+      int64 b;
     };
     @verbatim (language="comment", text=
       "Response")

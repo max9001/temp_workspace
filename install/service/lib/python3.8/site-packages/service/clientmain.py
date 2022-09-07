@@ -3,7 +3,7 @@
 import sys
 
 #import neccessary packages
-from example_interfaces.srv import GetDistance
+from test_interfaces1.srv import GetDistance
 import rclpy
 from rclpy.node import Node
 
@@ -55,8 +55,8 @@ def main(args=None):
     
     #WHAT???
     client_node.get_logger().info(
-        'Result of GetDistance: ' %
-        (int(sys.argv[1]), int(sys.argv[2]), response.sum))
+        'Result of GetDistance: %d * %d = %d' %
+        (int(sys.argv[1]), int(sys.argv[2]), response.distance))
     client_node.destroy_node()
 
     #create shutdown(control c terminates the node)

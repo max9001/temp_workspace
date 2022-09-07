@@ -20,8 +20,8 @@ extern "C"
 // Struct defined in srv/GetDistance in the package test_interfaces1.
 typedef struct test_interfaces1__srv__GetDistance_Request
 {
-  int64_t x;
-  int64_t y;
+  int64_t a;
+  int64_t b;
 } test_interfaces1__srv__GetDistance_Request;
 
 // Struct for a sequence of test_interfaces1__srv__GetDistance_Request.

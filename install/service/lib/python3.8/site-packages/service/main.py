@@ -1,5 +1,5 @@
 #import .srv file
-from Interfaces.srv import GetDistance
+from test_interfaces1.srv import GetDistance
 
 #import neccessary packages
 import math 
@@ -34,9 +34,12 @@ class serviceNode(Node):
 
         #define the process to be done to the request variables
         #here we use the distance formula assuming we are at (0,0)
-        p = [0,0]
-        q = [request.a, request.b]
-        response.distance = math.dist(p,q)
+        
+        response.distance = request.a * request.b
+
+            #p = [0,0]
+            #q = [request.a, request.b]
+            #response.distance = math.dist(p,q)
         
         #use ros2 log to print request
         self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
@@ -44,7 +47,7 @@ class serviceNode(Node):
         return response
 
 #create a main function to call from the terminal
-def main(args = none):
+def main(args=None):
     rclpy.init(args=args)
 
     #initialize the node

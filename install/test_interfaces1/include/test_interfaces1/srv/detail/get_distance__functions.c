@@ -14,8 +14,8 @@ test_interfaces1__srv__GetDistance_Request__init(test_interfaces1__srv__GetDista
   if (!msg) {
     return false;
   }
-  // x
-  // y
+  // a
+  // b
   return true;
 }
 
@@ -25,8 +25,8 @@ test_interfaces1__srv__GetDistance_Request__fini(test_interfaces1__srv__GetDista
   if (!msg) {
     return;
   }
-  // x
-  // y
+  // a
+  // b
 }
 
 test_interfaces1__srv__GetDistance_Request *

@@ -20,15 +20,15 @@ namespace srv
 namespace builder
 {
 
-class Init_GetDistance_Request_y
+class Init_GetDistance_Request_b
 {
 public:
-  explicit Init_GetDistance_Request_y(::test_interfaces1::srv::GetDistance_Request & msg)
+  explicit Init_GetDistance_Request_b(::test_interfaces1::srv::GetDistance_Request & msg)
   : msg_(msg)
   {}
-  ::test_interfaces1::srv::GetDistance_Request y(::test_interfaces1::srv::GetDistance_Request::_y_type arg)
+  ::test_interfaces1::srv::GetDistance_Request b(::test_interfaces1::srv::GetDistance_Request::_b_type arg)
   {
-    msg_.y = std::move(arg);
+    msg_.b = std::move(arg);
     return std::move(msg_);
   }
 
@@ -36,16 +36,16 @@ private:
   ::test_interfaces1::srv::GetDistance_Request msg_;
 };
 
-class Init_GetDistance_Request_x
+class Init_GetDistance_Request_a
 {
 public:
-  Init_GetDistance_Request_x()
+  Init_GetDistance_Request_a()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_GetDistance_Request_y x(::test_interfaces1::srv::GetDistance_Request::_x_type arg)
+  Init_GetDistance_Request_b a(::test_interfaces1::srv::GetDistance_Request::_a_type arg)
   {
-    msg_.x = std::move(arg);
-    return Init_GetDistance_Request_y(msg_);
+    msg_.a = std::move(arg);
+    return Init_GetDistance_Request_b(msg_);
   }
 
 private:
@@ -63,7 +63,7 @@ template<>
 inline
 auto build<::test_interfaces1::srv::GetDistance_Request>()
 {
-  return test_interfaces1::srv::builder::Init_GetDistance_Request_x();
+  return test_interfaces1::srv::builder::Init_GetDistance_Request_a();
 }
 
 }  // namespace test_interfaces1

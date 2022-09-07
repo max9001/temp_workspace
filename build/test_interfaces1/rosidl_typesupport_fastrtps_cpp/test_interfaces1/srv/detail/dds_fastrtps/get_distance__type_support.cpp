@@ -32,10 +32,10 @@ cdr_serialize(
   const test_interfaces1::srv::GetDistance_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: x
-  cdr << ros_message.x;
-  // Member: y
-  cdr << ros_message.y;
+  // Member: a
+  cdr << ros_message.a;
+  // Member: b
+  cdr << ros_message.b;
   return true;
 }
 
@@ -45,11 +45,11 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   test_interfaces1::srv::GetDistance_Request & ros_message)
 {
-  // Member: x
-  cdr >> ros_message.x;
+  // Member: a
+  cdr >> ros_message.a;
 
-  // Member: y
-  cdr >> ros_message.y;
+  // Member: b
+  cdr >> ros_message.b;
 
   return true;
 }
@@ -67,15 +67,15 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: x
+  // Member: a
   {
-    size_t item_size = sizeof(ros_message.x);
+    size_t item_size = sizeof(ros_message.a);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: y
+  // Member: b
   {
-    size_t item_size = sizeof(ros_message.y);
+    size_t item_size = sizeof(ros_message.b);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -98,7 +98,7 @@ max_serialized_size_GetDistance_Request(
   (void)full_bounded;
 
 
-  // Member: x
+  // Member: a
   {
     size_t array_size = 1;
 
@@ -106,7 +106,7 @@ max_serialized_size_GetDistance_Request(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
-  // Member: y
+  // Member: b
   {
     size_t array_size = 1;
 

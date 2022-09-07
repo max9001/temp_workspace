@@ -49,14 +49,14 @@ static bool _GetDistance_Request__cdr_serialize(
     return false;
   }
   const _GetDistance_Request__ros_msg_type * ros_message = static_cast<const _GetDistance_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: x
+  // Field name: a
   {
-    cdr << ros_message->x;
+    cdr << ros_message->a;
   }
 
-  // Field name: y
+  // Field name: b
   {
-    cdr << ros_message->y;
+    cdr << ros_message->b;
   }
 
   return true;
@@ -71,14 +71,14 @@ static bool _GetDistance_Request__cdr_deserialize(
     return false;
   }
   _GetDistance_Request__ros_msg_type * ros_message = static_cast<_GetDistance_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: x
+  // Field name: a
   {
-    cdr >> ros_message->x;
+    cdr >> ros_message->a;
   }
 
-  // Field name: y
+  // Field name: b
   {
-    cdr >> ros_message->y;
+    cdr >> ros_message->b;
   }
 
   return true;
@@ -98,15 +98,15 @@ size_t get_serialized_size_test_interfaces1__srv__GetDistance_Request(
   (void)padding;
   (void)wchar_size;
 
-  // field.name x
+  // field.name a
   {
-    size_t item_size = sizeof(ros_message->x);
+    size_t item_size = sizeof(ros_message->a);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name y
+  // field.name b
   {
-    size_t item_size = sizeof(ros_message->y);
+    size_t item_size = sizeof(ros_message->b);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -134,14 +134,14 @@ size_t max_serialized_size_test_interfaces1__srv__GetDistance_Request(
   (void)wchar_size;
   (void)full_bounded;
 
-  // member: x
+  // member: a
   {
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
-  // member: y
+  // member: b
   {
     size_t array_size = 1;
 

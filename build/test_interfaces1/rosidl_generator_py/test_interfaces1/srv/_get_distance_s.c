@@ -50,22 +50,22 @@ bool test_interfaces1__srv__get_distance__request__convert_from_py(PyObject * _p
     assert(strncmp("test_interfaces1.srv._get_distance.GetDistance_Request", full_classname_dest, 54) == 0);
   }
   test_interfaces1__srv__GetDistance_Request * ros_message = _ros_message;
-  {  // x
-    PyObject * field = PyObject_GetAttrString(_pymsg, "x");
+  {  // a
+    PyObject * field = PyObject_GetAttrString(_pymsg, "a");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->x = PyLong_AsLongLong(field);
+    ros_message->a = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
-  {  // y
-    PyObject * field = PyObject_GetAttrString(_pymsg, "y");
+  {  // b
+    PyObject * field = PyObject_GetAttrString(_pymsg, "b");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->y = PyLong_AsLongLong(field);
+    ros_message->b = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
 
@@ -90,22 +90,22 @@ PyObject * test_interfaces1__srv__get_distance__request__convert_to_py(void * ra
     }
   }
   test_interfaces1__srv__GetDistance_Request * ros_message = (test_interfaces1__srv__GetDistance_Request *)raw_ros_message;
-  {  // x
+  {  // a
     PyObject * field = NULL;
-    field = PyLong_FromLongLong(ros_message->x);
+    field = PyLong_FromLongLong(ros_message->a);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "x", field);
+      int rc = PyObject_SetAttrString(_pymessage, "a", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
       }
     }
   }
-  {  // y
+  {  // b
     PyObject * field = NULL;
-    field = PyLong_FromLongLong(ros_message->y);
+    field = PyLong_FromLongLong(ros_message->b);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "y", field);
+      int rc = PyObject_SetAttrString(_pymessage, "b", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

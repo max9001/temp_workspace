@@ -33,14 +33,14 @@ void GetDistance_Request__rosidl_typesupport_introspection_c__GetDistance_Reques
 
 static rosidl_typesupport_introspection_c__MessageMember GetDistance_Request__rosidl_typesupport_introspection_c__GetDistance_Request_message_member_array[2] = {
   {
-    "x",  // name
+    "a",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(test_interfaces1__srv__GetDistance_Request, x),  // bytes offset in struct
+    offsetof(test_interfaces1__srv__GetDistance_Request, a),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -48,14 +48,14 @@ static rosidl_typesupport_introspection_c__MessageMember GetDistance_Request__ro
     NULL  // resize(index) function pointer
   },
   {
-    "y",  // name
+    "b",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(test_interfaces1__srv__GetDistance_Request, y),  // bytes offset in struct
+    offsetof(test_interfaces1__srv__GetDistance_Request, b),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

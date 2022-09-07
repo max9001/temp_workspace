@@ -1,0 +1,31 @@
+[1.131s] Invoking command in '/home/max/temp_workspace/src/service': PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed
+[1.424s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.424s]   warnings.warn(
+[1.425s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.425s]   warnings.warn(
+[1.501s] running egg_info
+[1.513s] writing ../../build/service/service.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt
+[1.513s] writing entry points to ../../build/service/service.egg-info/entry_points.txt
+[1.513s] writing requirements to ../../build/service/service.egg-info/requires.txt
+[1.513s] writing top-level names to ../../build/service/service.egg-info/top_level.txt
+[1.538s] reading manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[1.539s] writing manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[1.539s] running build
+[1.540s] running build_py
+[1.540s] copying service/clientmain.py -> /home/max/temp_workspace/build/service/build/lib/service
+[1.540s] running install
+[1.540s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.540s]   warnings.warn(
+[1.546s] running install_lib
+[1.558s] copying /home/max/temp_workspace/build/service/build/lib/service/clientmain.py -> /home/max/temp_workspace/install/service/lib/python3.8/site-packages/service
+[1.559s] byte-compiling /home/max/temp_workspace/install/service/lib/python3.8/site-packages/service/clientmain.py to clientmain.cpython-38.pyc
+[1.559s] running install_data
+[1.571s] running install_egg_info
+[1.583s] removing '/home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info' (and everything under it)
+[1.583s] Copying ../../build/service/service.egg-info to /home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info
+[1.584s] running install_scripts
+[1.649s] Installing client script to /home/max/temp_workspace/install/service/lib/service
+[1.649s] Installing service script to /home/max/temp_workspace/install/service/lib/service
+[1.650s] writing list of installed files to '/home/max/temp_workspace/build/service/install.log'
+[1.714s] Invoked command in '/home/max/temp_workspace/src/service' returned '0': PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed

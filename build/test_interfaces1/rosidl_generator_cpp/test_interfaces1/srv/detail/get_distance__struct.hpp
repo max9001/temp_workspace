@@ -37,8 +37,8 @@ struct GetDistance_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->x = 0ll;
-      this->y = 0ll;
+      this->a = 0ll;
+      this->b = 0ll;
     }
   }
 
@@ -48,30 +48,30 @@ struct GetDistance_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->x = 0ll;
-      this->y = 0ll;
+      this->a = 0ll;
+      this->b = 0ll;
     }
   }
 
   // field types and members
-  using _x_type =
+  using _a_type =
     int64_t;
-  _x_type x;
-  using _y_type =
+  _a_type a;
+  using _b_type =
     int64_t;
-  _y_type y;
+  _b_type b;
 
   // setters for named parameter idiom
-  Type & set__x(
+  Type & set__a(
     const int64_t & _arg)
   {
-    this->x = _arg;
+    this->a = _arg;
     return *this;
   }
-  Type & set__y(
+  Type & set__b(
     const int64_t & _arg)
   {
-    this->y = _arg;
+    this->b = _arg;
     return *this;
   }
 
@@ -117,10 +117,10 @@ struct GetDistance_Request_
   // comparison operators
   bool operator==(const GetDistance_Request_ & other) const
   {
-    if (this->x != other.x) {
+    if (this->a != other.a) {
       return false;
     }
-    if (this->y != other.y) {
+    if (this->b != other.b) {
       return false;
     }
     return true;

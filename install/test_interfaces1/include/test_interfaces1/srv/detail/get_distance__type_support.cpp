@@ -39,14 +39,14 @@ void GetDistance_Request_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember GetDistance_Request_message_member_array[2] = {
   {
-    "x",  // name
+    "a",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(test_interfaces1::srv::GetDistance_Request, x),  // bytes offset in struct
+    offsetof(test_interfaces1::srv::GetDistance_Request, a),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -54,14 +54,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember GetDistance_R
     nullptr  // resize(index) function pointer
   },
   {
-    "y",  // name
+    "b",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(test_interfaces1::srv::GetDistance_Request, y),  // bytes offset in struct
+    offsetof(test_interfaces1::srv::GetDistance_Request, b),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

@@ -53,13 +53,13 @@ class GetDistance_Request(metaclass=Metaclass_GetDistance_Request):
     """Message class 'GetDistance_Request'."""
 
     __slots__ = [
-        '_x',
-        '_y',
+        '_a',
+        '_b',
     ]
 
     _fields_and_field_types = {
-        'x': 'int64',
-        'y': 'int64',
+        'a': 'int64',
+        'b': 'int64',
     }
 
     SLOT_TYPES = (
@@ -71,8 +71,8 @@ class GetDistance_Request(metaclass=Metaclass_GetDistance_Request):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.x = kwargs.get('x', int())
-        self.y = kwargs.get('y', int())
+        self.a = kwargs.get('a', int())
+        self.b = kwargs.get('b', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -103,9 +103,9 @@ class GetDistance_Request(metaclass=Metaclass_GetDistance_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.x != other.x:
+        if self.a != other.a:
             return False
-        if self.y != other.y:
+        if self.b != other.b:
             return False
         return True
 
@@ -115,34 +115,34 @@ class GetDistance_Request(metaclass=Metaclass_GetDistance_Request):
         return copy(cls._fields_and_field_types)
 
     @property
-    def x(self):
-        """Message field 'x'."""
-        return self._x
+    def a(self):
+        """Message field 'a'."""
+        return self._a
 
-    @x.setter
-    def x(self, value):
+    @a.setter
+    def a(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'x' field must be of type 'int'"
+                "The 'a' field must be of type 'int'"
             assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'x' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._x = value
+                "The 'a' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._a = value
 
     @property
-    def y(self):
-        """Message field 'y'."""
-        return self._y
+    def b(self):
+        """Message field 'b'."""
+        return self._b
 
-    @y.setter
-    def y(self, value):
+    @b.setter
+    def b(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'y' field must be of type 'int'"
+                "The 'b' field must be of type 'int'"
             assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'y' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._y = value
+                "The 'b' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._b = value
 
 
 # Import statements for member types

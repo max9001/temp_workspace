@@ -1,5 +1,5 @@
 #import .srv file
-from Interfaces.srv import GetDistance
+from GetDistance.srv import GetDistance
 
 #import neccessary packages
 import math 
@@ -44,7 +44,7 @@ class serviceNode(Node):
         return response
 
 #create a main function to call from the terminal
-def main(args = none)
+def main(args=None):
     rclpy.init(args=args)
 
     #initialize the node

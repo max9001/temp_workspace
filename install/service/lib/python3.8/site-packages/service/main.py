@@ -44,7 +44,7 @@ class serviceNode(Node):
         return response
 
 #create a main function to call from the terminal
-def main(args = none)
+def main(args = none):
     rclpy.init(args=args)
 
     #initialize the node

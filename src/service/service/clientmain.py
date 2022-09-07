@@ -3,7 +3,7 @@
 import sys
 
 #import neccessary packages
-from example_interfaces.srv import AddTwoInts
+from GetDistance.srv import GetDistance
 import rclpy
 from rclpy.node import Node
 
@@ -19,22 +19,20 @@ class clientNode(Node):
         #super() allows other classes to access this class
         super().__init__('client_node')
 
-        
+        #DON'T KNOW WHAT THIS IS
+        #cli = command line 
         self.cli = self.create_client(GetDistance, 'get_distance')
-        
         
         #while loop runs once a second
         while not self.cli.wait_for_service(timeout_sec=1.0):
 
-            #checks if service 
-            self.get_logger().info('service not available, waiting again...')
-
-            
-        
+            #checks if message is type GetDistance & name is 'get_distance'
+            self.get_logger().info('service not available, waiting again...')  
        
-       
+        #DON'T KNOW WHAT THIS IS
         self.req = GetDistance.Request()
 
+    #DON'T KNOW WHAT ALL OF THIS IS
     def send_request(self, a, b):
         
         self.req.a = a
@@ -45,17 +43,21 @@ class clientNode(Node):
         
         return self.future.result()
 
-
+#create a main function to call from the terminal
 def main(args=None):
     rclpy.init(args=args)
 
+    #initialize the node
     client_node = clientNode()
     
+    #WHAT????
     response = client_node.send_request(int(sys.argv[1]), int(sys.argv[2]))
     
+    #WHAT???
     client_node.get_logger().info(
         'Result of GetDistance: ' %
         (int(sys.argv[1]), int(sys.argv[2]), response.sum))
-
     client_node.destroy_node()
+
+    #create shutdown(control c terminates the node)
     rclpy.shutdown()

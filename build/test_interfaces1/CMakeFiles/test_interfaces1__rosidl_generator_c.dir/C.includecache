@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/max/temp_workspace/build/test_interfaces1/rosidl_generator_c/test_interfaces1/srv/detail/get_distance__functions.c
+test_interfaces1/srv/detail/get_distance__functions.h
+/home/max/temp_workspace/build/test_interfaces1/rosidl_generator_c/test_interfaces1/srv/detail/test_interfaces1/srv/detail/get_distance__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/test_interfaces1/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/test_interfaces1/srv/detail/get_distance__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/test_interfaces1/srv/detail/rosidl_runtime_c/visibility_control.h
+test_interfaces1/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/test_interfaces1/srv/detail/test_interfaces1/msg/rosidl_generator_c__visibility_control.h
+test_interfaces1/srv/detail/get_distance__struct.h
+rosidl_generator_c/test_interfaces1/srv/detail/test_interfaces1/srv/detail/get_distance__struct.h
+
+rosidl_generator_c/test_interfaces1/srv/detail/get_distance__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

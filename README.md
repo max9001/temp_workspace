@@ -1,4 +1,4 @@
-#custom msg and srv files
+# custom msg and srv files
 
 - create package for custom .msg and .srv files
 
@@ -19,7 +19,7 @@
 
 		mkdir srv
 
-##srv definition
+## srv definition
 
 - in the srv folder make .srv file with a request and response structure
 
@@ -29,7 +29,7 @@
 		add `---`
 		add one 64 bit sum integer (resposne)
 
-##convert to language specific code
+## convert to language specific code
 
 - navigate to CMakeLists.txt in tutorial_interfaces
 
@@ -41,7 +41,7 @@
   			"srv/GetDistance.srv"
 		)
 
-##add dependencies to package.xml
+## add dependencies to package.xml
 	
 	<build_depend>rosidl_default_generators</build_depend>
 
@@ -49,21 +49,21 @@
 
 	<member_of_group>rosidl_interface_packages</member_of_group>
 
-##BUILD PACKAGE
+## BUILD PACKAGE
 
 - Navigate to temp_workspace
 
 		colcon build --packages-select test_interfaces1
 
 
-##Confirm srv creation
+## Confirm srv creation
 
 	. install/setup.bash
 
 	ros2 interface show test_interfaces1/srv/GetDistance
 
 
-##change import call in service and client main code
+## change import call in service and client main code
 
 - from tutorial_interfaces.srv import AddThreeInts  
 
@@ -71,16 +71,16 @@
 
 		<exec_depend>tutorial_interfaces</exec_depend>
 
-##build service and client package
+## build service and client package
 
 - colcon build --packages-select py_srvcli
 
 
 
-#service / client
+# service / client
 
 
-##Create service package
+## Create service package
 
 - Navigate to `src` in `temp_workspace`
 
@@ -99,7 +99,7 @@
 
 
 
-##Begin writing code for `service` package:
+## Begin writing code for `service` package:
 
 - navigate to temp_workspace/src/service/service/main.py in vscode (`code . `)
 
@@ -160,19 +160,19 @@
 
       - and finaly the method name inside our source file (main)
 
-##add client in service oackage *LOOK INTO THIS*
+## add client in service oackage *LOOK INTO THIS*
 
-##add dependicies in py
+## add dependicies in py
 
-##run rosdep in root of workspace
+## run rosdep in root of workspace
 	
 	rosdep install -i --from-path src --rosdistro foxy -y
 
-##build service package (since it has both service and clients node, this may change)
+## build service package (since it has both service and clients node, this may change)
 
 	colcon build --packages-select service
 
-##run
+## run
 	
 - source
 

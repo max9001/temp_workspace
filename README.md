@@ -1,39 +1,39 @@
-custom msg and srv files
+#custom msg and srv files
 
-	create package for custom .msg and .srv files
+- create package for custom .msg and .srv files
 
-	navigate to src in workspace
+  - navigate to src in workspace
 
-	create package
+    - create package
 
 		ros2 pkg create --build-type ament_cmake tutorial_interfaces
 
-			*cannot generate .msg or .srv file in a python package in ROS2 Foxy. we csan make the custom interface in a CMake package, then use it in a python node.
+      - *cannot generate .msg or .srv file in a python package in ROS2 Foxy. we csan make the custom interface in a CMake package, then use it in a python node.
 
 	
 
 	
-	seperate directories for each kind of package
+       - seperate directories for each kind of package
 
 		mkdir msg
 
 		mkdir srv
 
-srv definition
+##srv definition
 
-	in the srv folder make .srv file with a request and response structure
+- in the srv folder make .srv file with a request and response structure
 
-	create AddThreeInts.srv
+  - create AddThreeInts.srv
 
 		add three 64bit integers (request)
 		add `---`
 		add one 64 bit sum integer (resposne)
 
-convert to language specific code
+##convert to language specific code
 
-	navigate to CMakeLists.txt in tutorial_interfaces
+- navigate to CMakeLists.txt in tutorial_interfaces
 
-	edit CMakeLists.txt
+  - edit CMakeLists.txt
 
 		find_package(rosidl_default_generators REQUIRED)
 
@@ -41,8 +41,7 @@ convert to language specific code
   			"srv/GetDistance.srv"
 		)
 
-add dependencies to package.xml
-
+##add dependencies to package.xml
 	
 	<build_depend>rosidl_default_generators</build_depend>
 
@@ -50,110 +49,48 @@ add dependencies to package.xml
 
 	<member_of_group>rosidl_interface_packages</member_of_group>
 
-BUILD PACKAGE
+##BUILD PACKAGE
 
-	Navigate to temp_workspace
+- Navigate to temp_workspace
 
 		colcon build --packages-select test_interfaces1
 
 
-Confirm srv creation
+##Confirm srv creation
 
 	. install/setup.bash
 
 	ros2 interface show test_interfaces1/srv/GetDistance
 
 
-change import call in service and client main code
+##change import call in service and client main code
 
-	from tutorial_interfaces.srv import AddThreeInts  
+- from tutorial_interfaces.srv import AddThreeInts  
 
-	change package.xml
+  - change package.xml
 
 		<exec_depend>tutorial_interfaces</exec_depend>
 
-build service and client package
+##build service and client package
 
-	colcon build --packages-select py_srvcli
-
-
-
-service / client
-
-Create .srv file
-
-	First create package to house .srv file
-
-	navigate to src in workspace
-
-	create package
-
-		ros2 pkg create --build-type ament_cmake interfaces
-
-			*cannot generate .msg or .srv file in a python package in ROS2 Foxy. we csan make the custom interface in a CMake package, then use it in a python node.
-
-
-	from src enter interfaces
-
-		in interfaces create directory for srv files
-
-			mkdir srv
-
-	srv definition
-
-		in the srv folder make .srv file with a request and response structure
-
-			create GetDistance.srv
-
-				touch srv/GetDistance.srv
-
-			Add:
-
-				add three 64bit integers (request)
-				add `---`
-				add one 64 bit distance float (resposne)
-
-	convert to language specific code
-
-		navigate to CMakeLists.txt in interfaces
-
-			edit CMakeLists.txt
-
-				find_package(rosidl_default_generators REQUIRED)
-				rosidl_generate_interfaces(${PROJECT_NAME}
-		  			"srv/GetDistance.srv"
-				)
-
-
-	add dependencies to package.xml
-
-			<build_depend>rosidl_default_generators</build_depend>
-			<exec_depend>rosidl_default_runtime</exec_depend>
-			<member_of_group>rosidl_interface_packages</member_of_group>
-
-	BUILD PACKAGE
-
-		colcon build --packages-select interfaces
-
-	Confirm srv creation
-
-		. install/setup.bash
-
-			ros2 interface show interfaces/srv/GetDistance
+- colcon build --packages-select py_srvcli
 
 
 
-Create service package
+#service / client
 
-	Navigate to `src` in `temp_workspace`
+
+##Create service package
+
+- Navigate to `src` in `temp_workspace`
 
 			cd temp_workspace/src
 
-		- create service package `service`
+  - create service package `service`
 
 			ros2 pkg create --build-type ament_python service
 
-		- create source file for service package (`main.py`)
+  - create source file for service package (`main.py`)
 
 			touch service/service/main.py
 
@@ -162,41 +99,41 @@ Create service package
 
 
 
-Begin writing code for `service` package:
+##Begin writing code for `service` package:
 
-		navigate to temp_workspace/src/service/service/main.py in vscode (`code . `)
+- navigate to temp_workspace/src/service/service/main.py in vscode (`code . `)
 
-			import .srv file
+  - import .srv file
 
-			import neccessary packages
+  - import neccessary packages
 
-			clreate serviceNode class
+    - clreate serviceNode class
 
-				define constructor
+      - define constructor
 
-					define service node, three arguments
+        - define service node, three arguments
 
-						which type of message (found in .srv file)
+          - which type of message (found in .srv file)
 
-						name of request message
+            - name of request message
 
-						callback
+	    - callback
 
-				define service callback
+	- define service callback
 
-					define process to be done to request variables
+	  - define process to be done to request variables
 
-					use ros2 logger to print request
+	  - use ros2 logger to print request
 
-					return response
+	  - return response
 
-			create main to be called from terminal
+      - create main to be called from terminal
 
-				initialize ndoe
+        - initialize ndoe
 
-				execute node
+        - execute node
 
-				create shutdown
+	- create shutdown
 
 	
 ## Add entry point (So we can use `ros2 run` to execute the listener)
@@ -223,21 +160,21 @@ Begin writing code for `service` package:
 
       - and finaly the method name inside our source file (main)
 
-add client in service oackage *LOOK INTO THIS*
+##add client in service oackage *LOOK INTO THIS*
 
-add dependicies in py
+##add dependicies in py
 
-run rosdep in root of workspace
+##run rosdep in root of workspace
 	
 	rosdep install -i --from-path src --rosdistro foxy -y
 
-build service package (since it has both service and clients node, this may change)
+##build service package (since it has both service and clients node, this may change)
 
 	colcon build --packages-select service
 
-run
+##run
 	
-	source
+- source
 
 		. install/setup.bash
 

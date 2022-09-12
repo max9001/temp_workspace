@@ -1,8 +1,12 @@
 #import .srv file
+#our srv file is in another directory, so this is how we can import it
+#in the test_interfaces1 folder, there is an srv folder, and inside there is GetDistance.srv
+#so with 'from' we do folder1.folder2.folder3......
+    #in this case from test_interfaces1.srv
+#Then, we import GetDistance
 from test_interfaces1.srv import GetDistance
 
 #import neccessary packages
-import math 
 import rclpy
 from rclpy.node import Node
 
@@ -33,13 +37,11 @@ class serviceNode(Node):
     def get_distance_callback(self, request, response):
 
         #define the process to be done to the request variables
-        #here we use the distance formula assuming we are at (0,0)
+        #here we return the product of a & b
+            #originally, this was supposed to calculate distance based on distance formula
+            #but, I was too stupid to figure out how to do that
         
         response.distance = request.a * request.b
-
-            #p = [0,0]
-            #q = [request.a, request.b]
-            #response.distance = math.dist(p,q)
         
         #use ros2 log to print request
         self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))

@@ -177,7 +177,7 @@
     
   - create shutdown
 	
-## Add entry point (So we can use `ros2 run` to execute the listener)
+## Add entry point (So we can use `ros2 run` to execute the service/client)
 
 - navigate to `temp_workspace/src/service/setup.py`
 

@@ -28,8 +28,8 @@
 
   - writing your own custom interface
   
-  - writing a service that utulizes your custom interface
+  - writing a service that utilizes your custom interface
   
-  - writing a client that utulizes your custom interface
+  - writing a client that utilizes your custom interface
   
   - Running the system

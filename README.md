@@ -107,7 +107,7 @@
 
     - create package
 
-		ros2 pkg create --build-type ament_cmake tutorial_interfaces
+			ros2 pkg create --build-type ament_cmake tutorial_interfaces
 
       - *cannot generate .msg or .srv file in a python package in ROS2 Foxy. we csan make the custom interface in a CMake package, then use it in a python node.
 
@@ -116,9 +116,9 @@
 	
        - seperate directories for each kind of package
 
-		mkdir msg
+			mkdir msg
 
-		mkdir srv
+			mkdir srv
 
 ## srv definition
 

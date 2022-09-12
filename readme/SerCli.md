@@ -23,11 +23,14 @@
 
 - in the srv folder make .srv file with a request and response structure
 
-  - create AddThreeInts.srv
+  - create GetDistance.srv
 
-		three 64bit integers (request)
-		`---`
-		64 bit sum integer (resposne)
+		#Request:
+		int64 a
+		int64 b
+		---
+		#Response
+		int64 distance
 
 ## convert to language specific code
 

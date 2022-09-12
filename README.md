@@ -1,4 +1,4 @@
-# New people read here
+# New People Start Here
 
 ## Setting up ubuntu
 
@@ -26,7 +26,7 @@
     
       - If you need help on macbook, talk to Max
       
-      - If you need help on windows, talk to Jasper or Camaron
+      - If you need help on windows, talk to Jasper or Camaron R
 
 - If this is your first time using Ubuntu:
 	
@@ -46,12 +46,53 @@
   
     - IGNORE the command under `ROS-Base Install (Bare Bones)`
 
-
+## Make sure ROS2 Works Correctly
       
+- Check Distro
 
+	printenv ROS_DISTRO
+
+  - should return `foxy`
+
+- Install `colcon`
+
+	sudo apt install python3-colcon-common-extensions
+	
+- Install package compiler for C++ files (only used in custom `.srv` file creation)
+
+	sudo apt install build-essential
+	
+- Install package compiler for Python
+
+	sudo apt install python3-pip 
+	sudo apt install python3-sphinx python3-pip 
+	sudo -H pip3 install sphinx_autodoc_typehints 
+	pip3 install --upgrade colcon-common-extensions --upgrade-strategy=eager
   
+- Source shell into startup script
 
+	echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+	
+  - This eliminates the need to source the shell everytime you start up the terminal.
 
+## Recomended tutorials
+
+- (ROS2 Foxy Tutorials)[https://docs.ros.org/en/foxy/Tutorials.html]
+
+- Beginner: CLI tools
+  - Configuring environment
+  - Using `turtlesim` and `rqt`
+  - Understanding nodes
+  - Understanding topics
+  - Understanding services
+  - Understanding parameters
+
+- Beginner: Client libraries
+  - Using `colcon` to build packages
+  - Creating a workspace
+  - Creating a package
+  - Writing a simple publisher and subscriber (Python)
+  - Writing a simple service and client (Python)
 
 
 

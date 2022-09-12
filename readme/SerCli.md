@@ -63,18 +63,6 @@
 	ros2 interface show test_interfaces1/srv/GetDistance
 
 
-## change import call in service and client main code
-
-- from tutorial_interfaces.srv import AddThreeInts  
-
-  - change package.xml
-
-		<exec_depend>tutorial_interfaces</exec_depend>
-
-## build service and client package
-
-- colcon build --packages-select py_srvcli
-
 
 
 
@@ -189,6 +177,16 @@
 		ros2 run service service
 
 
+
+
+
+## change import call in service and client main code
+
+- from tutorial_interfaces.srv import AddThreeInts  
+
+  - change package.xml
+
+		<exec_depend>tutorial_interfaces</exec_depend>
 
 
 

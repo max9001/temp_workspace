@@ -30,7 +30,7 @@
 
 - If this is your first time using Ubuntu:
 	
-  - Follow [this tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+  - Follow [this tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/) to learn frequently used commands
   
 ## Setting up ROS2
 

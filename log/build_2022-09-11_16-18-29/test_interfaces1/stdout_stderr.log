@@ -1,0 +1,8 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/max/temp_workspace/build/test_interfaces1/CMakeFiles/CMakeOutput.log".
+CMake Error at CMakeLists.txt:1:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "-cmake_minimum_required".
+
+
+make: *** [Makefile:748: cmake_check_build_system] Error 1

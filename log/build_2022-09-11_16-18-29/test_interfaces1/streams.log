@@ -1,0 +1,10 @@
+[0.062s] Invoking command in '/home/max/temp_workspace/build/test_interfaces1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4
+[1.047s] -- Configuring incomplete, errors occurred!
+[1.047s] See also "/home/max/temp_workspace/build/test_interfaces1/CMakeFiles/CMakeOutput.log".
+[1.048s] CMake Error at CMakeLists.txt:1:
+[1.048s]   Parse error.  Expected a command name, got unquoted argument with text
+[1.049s]   "-cmake_minimum_required".
+[1.049s] 
+[1.050s] 
+[1.052s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[1.053s] Invoked command in '/home/max/temp_workspace/build/test_interfaces1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4

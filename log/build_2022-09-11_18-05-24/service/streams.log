@@ -1,0 +1,29 @@
+[1.261s] Invoking command in '/home/max/temp_workspace/src/service': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1 LD_LIBRARY_PATH=/home/max/temp_workspace/install/test_interfaces1/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed
+[1.577s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.577s]   warnings.warn(
+[1.577s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.577s]   warnings.warn(
+[1.660s] running egg_info
+[1.674s] writing ../../build/service/service.egg-info/PKG-INFO
+[1.674s] writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt
+[1.675s] writing entry points to ../../build/service/service.egg-info/entry_points.txt
+[1.675s] writing requirements to ../../build/service/service.egg-info/requires.txt
+[1.675s] writing top-level names to ../../build/service/service.egg-info/top_level.txt
+[1.703s] reading manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[1.704s] writing manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[1.705s] running build
+[1.705s] running build_py
+[1.705s] running install
+[1.705s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.705s]   warnings.warn(
+[1.711s] running install_lib
+[1.724s] running install_data
+[1.736s] copying package.xml -> /home/max/temp_workspace/install/service/share/service
+[1.737s] running install_egg_info
+[1.750s] removing '/home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info' (and everything under it)
+[1.751s] Copying ../../build/service/service.egg-info to /home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info
+[1.752s] running install_scripts
+[1.822s] Installing client script to /home/max/temp_workspace/install/service/lib/service
+[1.822s] Installing service script to /home/max/temp_workspace/install/service/lib/service
+[1.822s] writing list of installed files to '/home/max/temp_workspace/build/service/install.log'
+[1.884s] Invoked command in '/home/max/temp_workspace/src/service' returned '0': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1 LD_LIBRARY_PATH=/home/max/temp_workspace/install/test_interfaces1/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed

@@ -77,7 +77,7 @@
 
 ## Recomended tutorials
 
-- (ROS2 Foxy Tutorials)[https://docs.ros.org/en/foxy/Tutorials.html]
+- [ROS2 Foxy Tutorial](https://docs.ros.org/en/foxy/Tutorials.html)
 
 - Beginner: CLI tools
   - Configuring environment

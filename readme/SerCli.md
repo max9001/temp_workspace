@@ -6,7 +6,7 @@
 
     - create package
 
-			ros2 pkg create --build-type ament_cmake tutorial_interfaces
+			ros2 pkg create --build-type ament_cmake test_interfaces1
 
       - cannot generate `.msg` or `.srv` file in a python package in ROS2 Foxy. we can make the custom interface in a `CMake` package, then use it in a python node.
 
@@ -127,7 +127,7 @@
 
   - create main to be called from terminal
 
-    - initialize ndoe
+    - initialize node
 
     - execute node
     
@@ -147,9 +147,35 @@
 
 - import neccessary packages
 
-- 
-  
+- create clientNode class
 
+  - define constructor
+
+    - define a client node
+
+    - create client (two arguments)
+
+      - which type of request message (found in .srv file.)
+        
+      - name of request message 
+    
+    - while loop
+
+      - use ROS2 logger to print "waiting for service"
+
+  - define a request
+
+    - *to be researched....*
+
+- create main to be called from terminal
+
+  - initialize node
+
+  - Read in two numbers from client run call
+
+  - use ros2 logger to print response
+    
+  - create shutdown
 	
 ## Add entry point (So we can use `ros2 run` to execute the listener)
 
@@ -157,7 +183,7 @@
 
 - change `install_requires=['setuptools']` to
   
-      install_requires=['setuptools','rclpy'],
+      install_requires=['setuptools','rclpy', 'GetDistance.srv'],
 
 - Look for the `entry_points` line 
 
@@ -166,6 +192,7 @@
     - inside the `[ ... ]` add:
 
       		'service = service.main:main',
+		'client = service.clientmain:main',
 
       - first is our executable name (service)
 
@@ -175,10 +202,12 @@
 
       - and finaly the method name inside our source file (main)
 
-## add client in service package
+        - same for client
 
+## add potential dypendency to `package.xml`
 
-## add dependicies in py
+	 <exec_depend>rclpy</exec_depend>
+	 <exec_depend>test_interfaces1</exec_depend>
 
 ## run rosdep in root of workspace
 	
@@ -191,22 +220,22 @@
 ## run
 	
 - source
-		
+
 		source /opt/ros/foxy/setup.bash
+		
 		. install/setup.bash
+
 		ros2 run service service
 
+- new window
+		source /opt/ros/foxy/setup.bash
+
+		. install/setup.bash
+
+		ros2 run service client 10 10
 
 
 
-
-## change import call in service and client main code
-
-- from tutorial_interfaces.srv import AddThreeInts  
-
-  - change package.xml
-
-		<exec_depend>tutorial_interfaces</exec_depend>
 
 
 

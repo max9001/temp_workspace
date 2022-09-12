@@ -204,7 +204,7 @@
 
         - same for client
 
-## add potential dypendency to `package.xml`
+## add potential dipendency to `package.xml`
 
 	 <exec_depend>rclpy</exec_depend>
 	 <exec_depend>test_interfaces1</exec_depend>
@@ -213,7 +213,7 @@
 	
 	rosdep install -i --from-path src --rosdistro foxy -y
 
-## build service package (since it has both service and clients node, this may change)
+## build service package 
 
 	colcon build --packages-select service
 

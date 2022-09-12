@@ -111,9 +111,9 @@
 
           - which type of message (found in .srv file)
 
-            - name of request message
+          - name of request message
 
-	    - callback
+	  - callback
 
 	- define service callback
 

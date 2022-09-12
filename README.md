@@ -2,7 +2,7 @@
 
 ## Absolutely no expierence?
 
-- Read [this](readme/NewUser.md) guide one getting started
+- Read [this](readme/NewUser.md) guide on getting started
 
 ## Getting Started 
 

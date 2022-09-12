@@ -29,15 +29,7 @@
 
   - Change `IPv4 method` to `Shared to other computers`
   
-## Network Knowledge
 
-- Internet sharing via PC to router WAN port. (So far only successful on Windows)
-  - Connect ethernet from WAN to PC.
-  - In PC network settings, make WiFi adapter share to ethernet.
-  - Connect to router with another device (WiFi or ethernet) to access routerlogin.net interface.
-  - On router, go to Advanced > Setup > Internet Setup > point Default Gateway to ethernet adapter IP address of PC. > Apply
-- Connect Pi to WiFi
-  - https://arstech.net/raspberry-pi-4-ubuntu-wifi/
   
 ## Commands in Terminal
 
@@ -54,3 +46,14 @@
 - Enter `yes` at the prompt
 
 - Login for `Telecom` Raspberry Pi is `rpi_rover`
+
+
+## Network Knowledge
+
+- Internet sharing via PC to router WAN port. (So far only successful on Windows)
+  - Connect ethernet from WAN to PC.
+  - In PC network settings, make WiFi adapter share to ethernet.
+  - Connect to router with another device (WiFi or ethernet) to access routerlogin.net interface.
+  - On router, go to Advanced > Setup > Internet Setup > point Default Gateway to ethernet adapter IP address of PC. > Apply
+- Connect Pi to WiFi
+  - https://arstech.net/raspberry-pi-4-ubuntu-wifi/

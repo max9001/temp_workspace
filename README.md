@@ -2,7 +2,7 @@
 
 ## Setting up ubuntu
 
-- If Raspberry Pi
+- On Raspberry Pi...
 
   - Using Rasberry Pi Imager... 
   

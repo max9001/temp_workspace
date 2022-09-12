@@ -1,4 +1,4 @@
-# Connect Pi to WiFi Using a Computer Running Ubuntu
+# Connect Pi to WiFi Using a Computer Running Ubuntu & Ethernet
 - Needs:
   
   - Pi

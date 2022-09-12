@@ -4,7 +4,7 @@
 
 - Read [this](readme/NewUser.md) guide on getting started
 
-## Getting Started 
+## Getting Started With WiFi 
 
 - Read [this](readme/SSH.md) guide on...
 

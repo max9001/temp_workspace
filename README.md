@@ -50,28 +50,28 @@
       
 - Check Distro
 
-	printenv ROS_DISTRO
+		printenv ROS_DISTRO
 
   - should return `foxy`
 
 - Install `colcon`
 
-	sudo apt install python3-colcon-common-extensions
+		sudo apt install python3-colcon-common-extensions
 	
 - Install package compiler for C++ files (only used in custom `.srv` file creation)
 
-	sudo apt install build-essential
+		sudo apt install build-essential
 	
 - Install package compiler for Python
 
-	sudo apt install python3-pip 
-	sudo apt install python3-sphinx python3-pip 
-	sudo -H pip3 install sphinx_autodoc_typehints 
-	pip3 install --upgrade colcon-common-extensions --upgrade-strategy=eager
+		sudo apt install python3-pip 
+		sudo apt install python3-sphinx python3-pip 
+		sudo -H pip3 install sphinx_autodoc_typehints 
+		pip3 install --upgrade colcon-common-extensions --upgrade-strategy=eager
   
 - Source shell into startup script
 
-	echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+		echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 	
   - This eliminates the need to source the shell everytime you start up the terminal.
 

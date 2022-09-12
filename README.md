@@ -1,3 +1,63 @@
+# New people read here
+
+## Setting up ubuntu
+
+- If Raspberry Pi
+
+  - Using Rasberry Pi Imager... 
+  
+    - choose `Other general-purpose OS` 
+    
+    - then `Ubuntu`
+  
+    - lastly, choose `Ubuntu Server 22.04.1 LTS 64-bit server OS for arm64 architectures`
+  
+  - In the settings of Rasberry Pi Imager (:gear: bottom right) 
+  
+    - :ballot_box_with_check: `Enable SSH`
+    	
+      - write password on the board in paleo for others to use
+      
+- On laptop...
+	
+  - There should be tutorials on how to do this for your device
+  
+    - Just make sure you use `Ubuntu Focal Fossa (20.04 LTS - Desktop image)` otherwise ROS2 won't work
+    
+      - If you need help on macbook, talk to Max
+      
+      - If you need help on windows, talk to Jasper or Camaron
+
+- If this is your first time using Ubuntu:
+	
+  - Follow [this tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+  
+## Setting up ROS2
+
+- Always use Debian packages for ROS 2 Foxy Fitzroy
+
+  - Installation guide can be found [here](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
+  
+- :warning: **Important** :warning:
+
+  - At the `Install ROS 2 packages` section
+  
+  - Make sure to do the `Desktop Install`
+  
+    - IGNORE the command under `ROS-Base Install (Bare Bones)`
+
+
+      
+
+  
+
+
+
+
+
+
+
+
 # custom msg and srv files
 
 - create package for custom .msg and .srv files
@@ -74,6 +134,14 @@
 ## build service and client package
 
 - colcon build --packages-select py_srvcli
+
+
+
+
+
+
+
+
 
 
 

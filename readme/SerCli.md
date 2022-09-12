@@ -103,38 +103,52 @@
 
   - import neccessary packages
 
-    - clreate serviceNode class
+  - create serviceNode class
 
-      - define constructor
+    - define constructor
 
-        - define service node, three arguments
+      - define service node
+      
+      - create the  service, three arguments
 
-          - which type of message (found in .srv file)
+        - which type of message (found in .srv file)
 
-          - name of request message
+        - name of request message
 
-	  - callback
+	- callback
 
-	- define service callback
+    - define service callback
 
-	  - define process to be done to request variables
+      - define process to be done to request variables
 
-	  - use ros2 logger to print request
+      - use ros2 logger to print request
 
-	  - return response
+      - return response
 
-      - create main to be called from terminal
+  - create main to be called from terminal
 
-        - initialize ndoe
+    - initialize ndoe
 
-        - execute node
+    - execute node
+    
+    - create shutdown
 
-	- create shutdown
+## Create main file for client
+
+- create file in same directory as `main.py` (`temp_workspace/src/service/service/`)
+
+  - I named it `clientmain.py`
 
 ## Begin writing code for `client`:
 
-- create file in same directory as `main.py` (`temp_workspace/src/service/service/`)
- navigate to temp_workspace/src/service/service/main.py in vscode (`code . `)
+- import sys
+
+- import .srv file
+
+- import neccessary packages
+
+- 
+  
 
 	
 ## Add entry point (So we can use `ros2 run` to execute the listener)

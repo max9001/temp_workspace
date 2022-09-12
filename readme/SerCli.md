@@ -204,7 +204,7 @@
 
         - same for client
 
-## add potential dipendency to `package.xml`
+## add potential dependency to `package.xml`
 
 	 <exec_depend>rclpy</exec_depend>
 	 <exec_depend>test_interfaces1</exec_depend>

@@ -115,10 +115,10 @@
 
 	
        - seperate directories for each kind of package
+	
+				mkdir msg
 
-			mkdir msg
-
-			mkdir srv
+				mkdir srv
 
 ## srv definition
 

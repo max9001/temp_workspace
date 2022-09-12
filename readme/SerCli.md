@@ -192,7 +192,7 @@
     - inside the `[ ... ]` add:
 
       		 'service = service.main:main',
-		 'client = service.clientmain:main',
+			 'client = service.clientmain:main',
 
       - first is our executable name (service)
 

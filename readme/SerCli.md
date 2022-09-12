@@ -1,4 +1,23 @@
-#Before we can start writing the Service and Client, we need to define a custom .srv file
+# custom msg and srv files
+
+- create package for custom .msg and .srv files
+
+  - navigate to src in workspace
+
+    - create package
+
+			ros2 pkg create --build-type ament_cmake tutorial_interfaces
+
+      - *cannot generate .msg or .srv file in a python package in ROS2 Foxy. we csan make the custom interface in a CMake package, then use it in a python node.
+
+	
+
+	
+       - seperate directories for each kind of package
+	
+				mkdir msg
+
+				mkdir srv
 
 ## srv definition
 
@@ -6,9 +25,9 @@
 
   - create AddThreeInts.srv
 
-		add three 64bit integers (request)
-		add `---`
-		add one 64 bit sum integer (resposne)
+		three 64bit integers (request)
+		`---`
+		64 bit sum integer (resposne)
 
 ## convert to language specific code
 

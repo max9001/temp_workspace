@@ -95,7 +95,7 @@
 
 
 
-## Begin writing code for `service` package:
+## Begin writing code for `service`:
 
 - navigate to temp_workspace/src/service/service/main.py in vscode (`code . `)
 
@@ -131,6 +131,11 @@
 
 	- create shutdown
 
+## Begin writing code for `client`:
+
+- create file in same directory as `main.py` (`temp_workspace/src/service/service/`)
+ navigate to temp_workspace/src/service/service/main.py in vscode (`code . `)
+
 	
 ## Add entry point (So we can use `ros2 run` to execute the listener)
 
@@ -156,7 +161,8 @@
 
       - and finaly the method name inside our source file (main)
 
-## add client in service oackage *LOOK INTO THIS*
+## add client in service package
+
 
 ## add dependicies in py
 

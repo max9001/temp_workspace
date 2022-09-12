@@ -8,7 +8,7 @@
 
 			ros2 pkg create --build-type ament_cmake tutorial_interfaces
 
-      - *cannot generate .msg or .srv file in a python package in ROS2 Foxy. we can make the custom interface in a CMake package, then use it in a python node.
+      - cannot generate .msg or .srv file in a python package in ROS2 Foxy. we can make the custom interface in a CMake package, then use it in a python node.
 
 	
 

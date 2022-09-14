@@ -81,8 +81,8 @@ network:
         wlan0:
             dhcp4: true
             access-points:
-                "WIFI SSID":
-                    password: "WiFi Password"
+                "NETGEAR25":
+                    password: "password123"
     version: 2
 ```
 

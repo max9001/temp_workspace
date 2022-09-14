@@ -33,13 +33,15 @@
   
 ## Commands in Terminal
 
-- Show entries in the Adresss Resolution Protocol
+- Show entries in the Address Resolution Protocol
 
 		arp -a
 		
 - Try and ping to the ip assigned to something named similar to `enx5c857e353ef4`
 
-		ssh ubuntu@10.153.0.1 
+		ssh ubuntu@10.153.0.1
+		or
+		ssh ubuntu@hostname.local (replace hostname)
 		
   - (IP may be different in your case)
  
@@ -50,10 +52,42 @@
 
 ## Network Knowledge
 
-- Internet sharing via PC to router WAN port. (So far only successful on Windows)
+- Internet sharing via PC to router WAN port.
   - Connect ethernet from WAN to PC.
   - In PC network settings, make WiFi adapter share to ethernet.
-  - Connect to router with another device (WiFi or ethernet) to access routerlogin.net interface.
-  - On router, go to Advanced > Setup > Internet Setup > point Default Gateway to ethernet adapter IP address of PC. > Apply
-- Connect Pi to WiFi
-  - https://arstech.net/raspberry-pi-4-ubuntu-wifi/
+
+## Connect Pi to Wi-Fi
+- Find Pi WLAN network card name. For example "wlan0". Then edit the Net
+
+		sudo ls /sys/class/net
+- Edit the Netplan Config File
+
+		sudo nano /etc/netplan/50-cloud-init.yaml
+- Add "wifis" section to file and edit the Wi-Fi name and password.
+		
+		# This file is generated from information provided by the datasource.  Changes
+		# to it will not persist across an instance reboot.  To disable cloud-init's
+		# network configuration capabilities, write a file
+		# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+		# network: {config: disabled}
+		network:
+		    ethernets:
+			eth0:
+			    dhcp4: true
+			    optional: true
+		    wifis:
+			wlan0:
+			    dhcp4: true
+			    access-points:
+				"WIFI SSID":
+				    password: "WiFi Password"
+		    version: 2
+- Save and close file, then apply these commands to verify and apply the new Netplan
+
+		$ sudo netplan --debug try
+		$ sudo netplan --debug generate
+		$ sudo netplan --debug apply
+- Finally, reboot Pi
+
+		$ sudo reboot
+- https://arstech.net/raspberry-pi-4-ubuntu-wifi/

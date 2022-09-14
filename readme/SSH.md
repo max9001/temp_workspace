@@ -57,7 +57,6 @@
   - In PC network settings, make WiFi adapter share to ethernet.
 
 ## Connect Pi to Wi-Fi
-Note: Connecting to Student Wi-Fi does not work with this method.
 - Find Pi WLAN network card name. For example "wlan0". Then edit the Net
 
 		sudo ls /sys/class/net

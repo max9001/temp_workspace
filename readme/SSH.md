@@ -84,10 +84,10 @@
 		    version: 2
 - Save and close file, then apply these commands to verify and apply the new Netplan
 
-		$ sudo netplan --debug try
-		$ sudo netplan --debug generate
-		$ sudo netplan --debug apply
+		sudo netplan --debug try
+		sudo netplan --debug generate
+		sudo netplan --debug apply
 - Finally, reboot Pi
 
-		$ sudo reboot
+		sudo reboot
 - https://arstech.net/raspberry-pi-4-ubuntu-wifi/

@@ -65,23 +65,33 @@
 		sudo nano /etc/netplan/50-cloud-init.yaml
 - Add "wifis" section to file and edit the Wi-Fi name and password.
 		
-		# This file is generated from information provided by the datasource.  Changes
-		# to it will not persist across an instance reboot.  To disable cloud-init's
-		# network configuration capabilities, write a file
-		# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
-		# network: {config: disabled}
-		network:
-		    ethernets:
-			eth0:
-			    dhcp4: true
-			    optional: true
-		    wifis:
-			wlan0:
-			    dhcp4: true
-			    access-points:
-				"WIFI SSID":
-				    password: "WiFi Password"
-		    version: 2
+```
+# This file is generated from information provided by the datasource.  Changes
+# to it will not persist across an instance reboot.  To disable cloud-init's
+# network configuration capabilities, write a file
+# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+# network: {config: disabled}
+network:
+    ethernets:
+        eth0:
+            dhcp4: true
+            optional: true
+    wifis:
+        wlan0:
+            dhcp4: true
+            access-points:
+                "WIFI SSID":
+                    password: "WiFi Password"
+    version: 2
+```
+
+
+
+
+
+
+
+
 - Save and close file, then apply these commands to verify and apply the new Netplan
 
 		sudo netplan --debug try

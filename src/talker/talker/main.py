@@ -41,6 +41,7 @@ class talkerNode(Node):
     #create the callback function to reset the timer
     #to publish messages, we include our message in the callback function
     #this way, a message is published at the end of the timer continuously
+    # .....
     def timer_callback(self):
         
         #create msg variable

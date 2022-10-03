@@ -1,0 +1,27 @@
+[3.798s] Invoking command in '/home/max/temp_workspace/src/talker': PYTHONPATH=/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/max/temp_workspace/build/talker/build install --prefix /home/max/temp_workspace/install/talker --record /home/max/temp_workspace/build/talker/install.log --single-version-externally-managed
+[5.079s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.080s]   warnings.warn(
+[5.080s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.080s]   warnings.warn(
+[5.245s] running egg_info
+[5.271s] writing ../../build/talker/talker.egg-info/PKG-INFO
+[5.273s] writing dependency_links to ../../build/talker/talker.egg-info/dependency_links.txt
+[5.274s] writing entry points to ../../build/talker/talker.egg-info/entry_points.txt
+[5.275s] writing requirements to ../../build/talker/talker.egg-info/requires.txt
+[5.275s] writing top-level names to ../../build/talker/talker.egg-info/top_level.txt
+[5.361s] reading manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[5.366s] writing manifest file '../../build/talker/talker.egg-info/SOURCES.txt'
+[5.367s] running build
+[5.367s] running build_py
+[5.368s] running install
+[5.369s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.369s]   warnings.warn(
+[5.389s] running install_lib
+[5.441s] running install_data
+[5.491s] running install_egg_info
+[5.544s] removing '/home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info' (and everything under it)
+[5.544s] Copying ../../build/talker/talker.egg-info to /home/max/temp_workspace/install/talker/lib/python3.8/site-packages/talker-0.0.0-py3.8.egg-info
+[5.555s] running install_scripts
+[5.722s] Installing talker script to /home/max/temp_workspace/install/talker/lib/talker
+[5.722s] writing list of installed files to '/home/max/temp_workspace/build/talker/install.log'
+[5.834s] Invoked command in '/home/max/temp_workspace/src/talker' returned '0': PYTHONPATH=/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/max/temp_workspace/build/talker/build install --prefix /home/max/temp_workspace/install/talker --record /home/max/temp_workspace/build/talker/install.log --single-version-externally-managed

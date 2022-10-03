@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'listener'}
+[0.000453] (-) JobUnselected: {'identifier': 'service'}
+[0.000612] (-) JobUnselected: {'identifier': 'talker'}
+[0.001977] (-) JobUnselected: {'identifier': 'test_interfaces1'}
+[0.002047] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.002080] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.020766] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.021406] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/max/temp_workspace/src/action_tutorials_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/max/temp_workspace/install/action_tutorials_interfaces'], 'cwd': '/home/max/temp_workspace/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'C.UTF-8'), ('USER', 'max'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/max/temp_workspace/install/test_interfaces1/lib:/home/max/temp_workspace/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15610'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/max/temp_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:43777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/max-MacBookAir:@/tmp/.ICE-unix/1766,unix/max-MacBookAir:/tmp/.ICE-unix/1766'), ('INVOCATION_ID', '23597453d09f45439d85e7597d39de94'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/test_interfaces1:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/home/max/temp_workspace/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a1802524-30ab-48ef-8a89-a2d750242d6d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/temp_workspace/build/action_tutorials_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/max/temp_workspace/install/test_interfaces1:/home/max/temp_workspace/install/interfaces:/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/opt/ros/foxy')]), 'shell': False}
+[0.087444] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099181] (-) TimerEvent: {}
+[0.156275] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.161626] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199298] (-) TimerEvent: {}
+[0.241001] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.242471] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299408] (-) TimerEvent: {}
+[0.330744] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.350659] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.351215] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.355797] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.401072] (-) TimerEvent: {}
+[0.497330] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.499821] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501197] (-) TimerEvent: {}
+[0.601622] (-) TimerEvent: {}
+[0.644323] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.667008] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.667965] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.671132] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.701721] (-) TimerEvent: {}
+[0.708369] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.708595] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.801828] (-) TimerEvent: {}
+[0.902147] (-) TimerEvent: {}
+[1.002482] (-) TimerEvent: {}
+[1.065817] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.102593] (-) TimerEvent: {}
+[1.202977] (-) TimerEvent: {}
+[1.203814] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.210539] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.223049] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.303106] (-) TimerEvent: {}
+[1.390479] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.403227] (-) TimerEvent: {}
+[1.442921] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.503340] (-) TimerEvent: {}
+[1.571809] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603452] (-) TimerEvent: {}
+[1.636460] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.703551] (-) TimerEvent: {}
+[1.803913] (-) TimerEvent: {}
+[1.868101] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.904011] (-) TimerEvent: {}
+[2.004460] (-) TimerEvent: {}
+[2.062149] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.104562] (-) TimerEvent: {}
+[2.112561] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.157438] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.160081] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.200625] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.200875] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.200972] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.201102] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.204674] (-) TimerEvent: {}
+[2.225241] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.304766] (-) TimerEvent: {}
+[2.405034] (-) TimerEvent: {}
+[2.505315] (-) TimerEvent: {}
+[2.551268] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.554285] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.556074] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.571229] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.605414] (-) TimerEvent: {}
+[2.651201] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.654980] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/max/temp_workspace/build/action_tutorials_interfaces\n'}
+[2.665365] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[2.666361] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'build'}
+[2.667482] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/max/temp_workspace/build/action_tutorials_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/max/temp_workspace/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'C.UTF-8'), ('USER', 'max'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/max/temp_workspace/install/test_interfaces1/lib:/home/max/temp_workspace/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15610'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/max/temp_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:43777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/max-MacBookAir:@/tmp/.ICE-unix/1766,unix/max-MacBookAir:/tmp/.ICE-unix/1766'), ('INVOCATION_ID', '23597453d09f45439d85e7597d39de94'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/test_interfaces1:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/home/max/temp_workspace/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a1802524-30ab-48ef-8a89-a2d750242d6d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/temp_workspace/build/action_tutorials_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/max/temp_workspace/install/test_interfaces1:/home/max/temp_workspace/install/interfaces:/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/opt/ros/foxy')]), 'shell': False}
+[2.705560] (-) TimerEvent: {}
+[2.717111] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__cpp\x1b[0m\n'}
+[2.720570] (action_tutorials_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.733699] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.805649] (-) TimerEvent: {}
+[2.905988] (-) TimerEvent: {}
+[3.006423] (-) TimerEvent: {}
+[3.106742] (-) TimerEvent: {}
+[3.207184] (-) TimerEvent: {}
+[3.307497] (-) TimerEvent: {}
+[3.409085] (-) TimerEvent: {}
+[3.452882] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] Built target action_tutorials_interfaces__cpp\n'}
+[3.470363] (action_tutorials_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.471503] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.472391] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.486646] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.509176] (-) TimerEvent: {}
+[3.528861] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/squares__functions.c.o\x1b[0m\n'}
+[3.609279] (-) TimerEvent: {}
+[3.709721] (-) TimerEvent: {}
+[3.810166] (-) TimerEvent: {}
+[3.824574] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.910269] (-) TimerEvent: {}
+[3.948525] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 22%] Built target action_tutorials_interfaces__rosidl_generator_c\n'}
+[3.980525] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.010368] (-) TimerEvent: {}
+[4.110797] (-) TimerEvent: {}
+[4.211221] (-) TimerEvent: {}
+[4.250465] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.311338] (-) TimerEvent: {}
+[4.331567] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/squares__type_support.cpp.o\x1b[0m\n'}
+[4.370929] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.402003] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.411448] (-) TimerEvent: {}
+[4.419619] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/squares__type_support.cpp.o\x1b[0m\n'}
+[4.461130] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/squares__type_support.cpp.o\x1b[0m\n'}
+[4.517147] (-) TimerEvent: {}
+[4.625066] (-) TimerEvent: {}
+[4.729069] (-) TimerEvent: {}
+[4.829430] (-) TimerEvent: {}
+[4.864809] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.929550] (-) TimerEvent: {}
+[4.941348] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/squares__type_support.c.o\x1b[0m\n'}
+[5.033077] (-) TimerEvent: {}
+[5.137073] (-) TimerEvent: {}
+[5.139481] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.203645] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.221991] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.237172] (-) TimerEvent: {}
+[5.262220] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.337279] (-) TimerEvent: {}
+[5.341252] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.437397] (-) TimerEvent: {}
+[5.449703] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp\n'}
+[5.526343] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.537502] (-) TimerEvent: {}
+[5.637989] (-) TimerEvent: {}
+[5.704610] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.738584] (-) TimerEvent: {}
+[5.838954] (-) TimerEvent: {}
+[5.865171] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.898733] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 54%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.903750] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/squares__type_support.cpp.o\x1b[0m\n'}
+[5.919784] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.939054] (-) TimerEvent: {}
+[5.999874] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.039811] (-) TimerEvent: {}
+[6.087699] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 64%] Built target action_tutorials_interfaces__rosidl_typesupport_c\n'}
+[6.139908] (-) TimerEvent: {}
+[6.240175] (-) TimerEvent: {}
+[6.340444] (-) TimerEvent: {}
+[6.413826] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.436898] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/squares__type_support_c.cpp.o\x1b[0m\n'}
+[6.440548] (-) TimerEvent: {}
+[6.540820] (-) TimerEvent: {}
+[6.641063] (-) TimerEvent: {}
+[6.741353] (-) TimerEvent: {}
+[6.841691] (-) TimerEvent: {}
+[6.871929] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.941822] (-) TimerEvent: {}
+[6.993799] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.008155] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces\x1b[0m\n'}
+[7.022938] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces\n'}
+[7.035625] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__py\x1b[0m\n'}
+[7.041927] (-) TimerEvent: {}
+[7.047800] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.142036] (-) TimerEvent: {}
+[7.242368] (-) TimerEvent: {}
+[7.342671] (-) TimerEvent: {}
+[7.442943] (-) TimerEvent: {}
+[7.543201] (-) TimerEvent: {}
+[7.643449] (-) TimerEvent: {}
+[7.743706] (-) TimerEvent: {}
+[7.843952] (-) TimerEvent: {}
+[7.944208] (-) TimerEvent: {}
+[8.044466] (-) TimerEvent: {}
+[8.144769] (-) TimerEvent: {}
+[8.176702] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_tutorials_interfaces__py\n'}
+[8.189956] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__python\x1b[0m\n'}
+[8.227662] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__python.dir/rosidl_generator_py/action_tutorials_interfaces/action/_squares_s.c.o\x1b[0m\n'}
+[8.244881] (-) TimerEvent: {}
+[8.345224] (-) TimerEvent: {}
+[8.391375] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__python.so\x1b[0m\n'}
+[8.441286] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_tutorials_interfaces__python\n'}
+[8.445335] (-) TimerEvent: {}
+[8.453550] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.457337] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.457670] (action_tutorials_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.484035] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.489454] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.494659] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.545512] (-) TimerEvent: {}
+[8.625187] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.641989] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.645630] (-) TimerEvent: {}
+[8.676294] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.682943] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.700618] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.745750] (-) TimerEvent: {}
+[8.760635] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.774018] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[8.829462] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'install'}
+[8.843202] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/max/temp_workspace/build/action_tutorials_interfaces'], 'cwd': '/home/max/temp_workspace/build/action_tutorials_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'C.UTF-8'), ('USER', 'max'), ('SSH_AGENT_PID', '1726'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/max/temp_workspace/install/test_interfaces1/lib:/home/max/temp_workspace/install/interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/max'), ('OLDPWD', '/home/max'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15610'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/max/temp_workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'max'), ('JOURNAL_STREAM', '8:43777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'max'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/max/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/max-MacBookAir:@/tmp/.ICE-unix/1766,unix/max-MacBookAir:/tmp/.ICE-unix/1766'), ('INVOCATION_ID', '23597453d09f45439d85e7597d39de94'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/test_interfaces1:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/home/max/temp_workspace/install/interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a1802524-30ab-48ef-8a89-a2d750242d6d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/max/temp_workspace/build/action_tutorials_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/max/temp_workspace/install/test_interfaces1:/home/max/temp_workspace/install/interfaces:/home/max/temp_workspace/install/service:/home/max/temp_workspace/install/talker:/home/max/temp_workspace/install/listener:/opt/ros/foxy')]), 'shell': False}
+[8.846078] (-) TimerEvent: {}
+[8.857492] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.858014] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces\n'}
+[8.858263] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[8.858482] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[8.858656] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.858845] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[8.858989] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[8.859157] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__functions.c\n'}
+[8.859322] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__struct.h\n'}
+[8.859461] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__type_support.h\n'}
+[8.859623] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__functions.h\n'}
+[8.859780] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/squares.h\n'}
+[8.860082] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh\n'}
+[8.860333] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv\n'}
+[8.860677] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so\n'}
+[8.861325] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.861599] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[8.861787] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[8.862002] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.862138] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[8.862299] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[8.862444] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_fastrtps_c.h\n'}
+[8.862572] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.863009] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.863223] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[8.863381] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[8.863579] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.863728] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[8.863876] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[8.863998] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.864178] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/dds_fastrtps\n'}
+[8.864310] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.864780] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.864987] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[8.865287] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg\n'}
+[8.865435] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.865592] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[8.865723] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[8.865840] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__type_support.c\n'}
+[8.866000] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_introspection_c.h\n'}
+[8.866129] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.866551] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.866733] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so\n'}
+[8.867285] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.867465] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[8.867607] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[8.867725] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[8.867821] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__builder.hpp\n'}
+[8.867916] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__struct.hpp\n'}
+[8.868038] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__traits.hpp\n'}
+[8.868162] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/squares.hpp\n'}
+[8.868325] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces\n'}
+[8.868504] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action\n'}
+[8.868609] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail\n'}
+[8.868732] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.868820] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__type_support.cpp\n'}
+[8.869017] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.869829] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.870032] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.870579] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.870700] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh\n'}
+[8.870894] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv\n'}
+[8.871211] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py\n'}
+[8.903706] (action_tutorials_interfaces) StdoutLine: {'line': b"Compiling '/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py'...\n"}
+[8.908111] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action\n'}
+[8.908351] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_squares_s.c\n'}
+[8.908503] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/__init__.py\n'}
+[8.908642] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_squares.py\n'}
+[8.909164] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.909956] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.910293] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.911547] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.911817] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.912582] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.912716] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so\n'}
+[8.913391] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so" to ""\n'}
+[8.913620] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Squares.idl\n'}
+[8.913916] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Squares.action\n'}
+[8.914222] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces\n'}
+[8.914475] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces\n'}
+[8.915000] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh\n'}
+[8.915187] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.915348] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh\n'}
+[8.915494] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv\n'}
+[8.915636] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash\n'}
+[8.915786] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh\n'}
+[8.915989] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh\n'}
+[8.916191] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv\n'}
+[8.916393] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv\n'}
+[8.916656] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces\n'}
+[8.916958] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.917258] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.917580] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.917788] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.918063] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.918286] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.918561] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.918862] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.919085] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.919363] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.919590] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.919801] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.920015] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.920227] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.920436] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.920644] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.920853] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.921091] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.921294] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake\n'}
+[8.921487] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake\n'}
+[8.921652] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml\n'}
+[8.924482] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[8.946202] (-) TimerEvent: {}
+[9.050724] (-) TimerEvent: {}
+[9.053605] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 0}
+[9.054278] (-) EventReactorShutdown: {}

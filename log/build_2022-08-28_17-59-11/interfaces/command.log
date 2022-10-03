@@ -1,4 +1,0 @@
-Invoking command in '/home/max/temp_workspace/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/interfaces -- -j4 -l4
-Invoked command in '/home/max/temp_workspace/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/interfaces -- -j4 -l4
-Invoking command in '/home/max/temp_workspace/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/interfaces
-Invoked command in '/home/max/temp_workspace/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/interfaces

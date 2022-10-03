@@ -1,0 +1,27 @@
+[2.555s] Invoking command in '/home/max/temp_workspace/src/listener': PYTHONPATH=/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/listener build --build-base /home/max/temp_workspace/build/listener/build install --prefix /home/max/temp_workspace/install/listener --record /home/max/temp_workspace/build/listener/install.log --single-version-externally-managed
+[3.059s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.060s]   warnings.warn(
+[3.060s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[3.060s]   warnings.warn(
+[3.202s] running egg_info
+[3.226s] writing ../../build/listener/listener.egg-info/PKG-INFO
+[3.226s] writing dependency_links to ../../build/listener/listener.egg-info/dependency_links.txt
+[3.226s] writing entry points to ../../build/listener/listener.egg-info/entry_points.txt
+[3.227s] writing requirements to ../../build/listener/listener.egg-info/requires.txt
+[3.227s] writing top-level names to ../../build/listener/listener.egg-info/top_level.txt
+[3.274s] reading manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[3.276s] writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+[3.276s] running build
+[3.276s] running build_py
+[3.277s] running install
+[3.277s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.277s]   warnings.warn(
+[3.289s] running install_lib
+[3.311s] running install_data
+[3.339s] running install_egg_info
+[3.368s] removing '/home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info' (and everything under it)
+[3.369s] Copying ../../build/listener/listener.egg-info to /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info
+[3.370s] running install_scripts
+[3.500s] Installing listener script to /home/max/temp_workspace/install/listener/lib/listener
+[3.501s] writing list of installed files to '/home/max/temp_workspace/build/listener/install.log'
+[3.596s] Invoked command in '/home/max/temp_workspace/src/listener' returned '0': PYTHONPATH=/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/listener build --build-base /home/max/temp_workspace/build/listener/build install --prefix /home/max/temp_workspace/install/listener --record /home/max/temp_workspace/build/listener/install.log --single-version-externally-managed

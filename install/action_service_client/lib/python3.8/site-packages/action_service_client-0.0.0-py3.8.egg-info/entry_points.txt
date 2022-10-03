@@ -1,0 +1,3 @@
+[console_scripts]
+squares_action_client = action_service_client.action_client:main
+squares_action_server = action_service_client.action_service:main

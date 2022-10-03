@@ -39,10 +39,10 @@ class clientNode(Node):
             #checks if message is type GetDistance & name is 'get_distance'
             self.get_logger().info('service not available, waiting again...')  
        
-        #DON'T KNOW WHAT THIS IS
+        #send request to service
         self.req = GetDistance.Request()
 
-    #DON'T KNOW WHAT ALL OF THIS IS
+    #send request assigns variables that were inputted by the user in the console
     def send_request(self, a, b):
         
         self.req.a = a
@@ -65,7 +65,7 @@ def main(args=None):
     
     #use ros2 logger to print response
     client_node.get_logger().info(
-        'Result of GetDistance: %d * %d = %d' %
+        'Result of GetDistance: %d * %d = %d' % 
         (int(sys.argv[1]), int(sys.argv[2]), response.distance))
     client_node.destroy_node()
 

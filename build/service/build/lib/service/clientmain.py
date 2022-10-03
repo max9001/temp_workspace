@@ -3,6 +3,11 @@
 import sys
 
 #import neccessary packages
+#our srv file is in another directory, so this is how we can import it
+#in the test_interfaces1 folder, there is an srv folder, and inside there is GetDistance.srv
+#so with 'from' we do folder1.folder2.folder3......
+    #in this case from test_interfaces1.srv
+#Then, we import GetDistance
 from test_interfaces1.srv import GetDistance
 import rclpy
 from rclpy.node import Node
@@ -19,9 +24,14 @@ class clientNode(Node):
         #super() allows other classes to access this class
         super().__init__('client_node')
 
-        #DON'T KNOW WHAT THIS IS
-        #cli = command line 
-        self.cli = self.create_client(GetDistance, 'get_distance')
+        #create client
+        #two arguments: 
+            #which type of request message (found in .srv file.)
+            #name of request message 
+        self.cli = self.create_client(
+            GetDistance, 
+            'get_distance'
+        )
         
         #while loop runs once a second
         while not self.cli.wait_for_service(timeout_sec=1.0):
@@ -50,10 +60,10 @@ def main(args=None):
     #initialize the node
     client_node = clientNode()
     
-    #WHAT????
+    #Read in two numbers from client run call
     response = client_node.send_request(int(sys.argv[1]), int(sys.argv[2]))
     
-    #WHAT???
+    #use ros2 logger to print response
     client_node.get_logger().info(
         'Result of GetDistance: %d * %d = %d' %
         (int(sys.argv[1]), int(sys.argv[2]), response.distance))

@@ -1,0 +1,468 @@
+[0.392s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.392s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9133d33520>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9133d33520>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9133c06340>)
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.459s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/max/temp_workspace'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'ros'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(readme) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_service_client) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_service_client' with type 'ros.ament_python' and name 'action_service_client'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/listener) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/listener' with type 'ros.ament_python' and name 'listener'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/service) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service' with type 'ros.ament_python' and name 'service'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/talker) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talker' with type 'ros.ament_python' and name 'talker'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces1) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_interfaces1' with type 'ros.ament_cmake' and name 'test_interfaces1'
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.534s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.604s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'action_tutorials_interfaces' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding action_tutorials_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/temp_workspace/build/action_tutorials_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/temp_workspace/install/action_tutorials_interfaces', 'merge_install': False, 'path': '/home/max/temp_workspace/src/action_tutorials_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_args' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_target' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.610s] DEBUG:colcon.colcon_core.verb:Building package 'listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/temp_workspace/build/listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/temp_workspace/install/listener', 'merge_install': False, 'path': '/home/max/temp_workspace/src/listener', 'symlink_install': False, 'test_result_base': None}
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_target' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_clean_first' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'cmake_force_configure' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'ament_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'talker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.612s] DEBUG:colcon.colcon_core.verb:Building package 'talker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/temp_workspace/build/talker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/temp_workspace/install/talker', 'merge_install': False, 'path': '/home/max/temp_workspace/src/talker', 'symlink_install': False, 'test_result_base': None}
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'cmake_target' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'cmake_clean_first' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'cmake_force_configure' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'ament_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.614s] DEBUG:colcon.colcon_core.verb:Building package 'test_interfaces1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/temp_workspace/build/test_interfaces1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/temp_workspace/install/test_interfaces1', 'merge_install': False, 'path': '/home/max/temp_workspace/src/test_interfaces1', 'symlink_install': False, 'test_result_base': None}
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'cmake_target' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'action_service_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.617s] DEBUG:colcon.colcon_core.verb:Building package 'action_service_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/temp_workspace/build/action_service_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/temp_workspace/install/action_service_client', 'merge_install': False, 'path': '/home/max/temp_workspace/src/action_service_client', 'symlink_install': False, 'test_result_base': None}
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_clean_first' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'cmake_force_configure' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'ament_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.619s] DEBUG:colcon.colcon_core.verb:Building package 'service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/max/temp_workspace/build/service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/max/temp_workspace/install/service', 'merge_install': False, 'path': '/home/max/temp_workspace/src/service', 'symlink_install': False, 'test_result_base': None}
+[0.621s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.631s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/max/temp_workspace/src/action_tutorials_interfaces' with build type 'ament_cmake'
+[0.631s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/max/temp_workspace/src/action_tutorials_interfaces'
+[0.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.647s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/max/temp_workspace/src/test_interfaces1' with build type 'ament_cmake'
+[0.648s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/max/temp_workspace/src/test_interfaces1'
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/max/temp_workspace/src/listener' with build type 'ament_python'
+[0.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('listener', 'ament_prefix_path')
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/listener/share/listener/hook/ament_prefix_path.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/listener/share/listener/hook/ament_prefix_path.dsv'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/listener/share/listener/hook/ament_prefix_path.sh'
+[0.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/max/temp_workspace/src/talker' with build type 'ament_python'
+[0.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker', 'ament_prefix_path')
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/talker/share/talker/hook/ament_prefix_path.ps1'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/talker/share/talker/hook/ament_prefix_path.dsv'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/talker/share/talker/hook/ament_prefix_path.sh'
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/action_tutorials_interfaces -- -j4 -l4
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/build/test_interfaces1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4
+[1.478s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/max/temp_workspace/src/listener'
+[1.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.059s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/max/temp_workspace/src/talker'
+[2.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/action_tutorials_interfaces -- -j4 -l4
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/build/test_interfaces1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4
+[2.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/action_tutorials_interfaces
+[2.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/build/test_interfaces1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/test_interfaces1
+[2.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[2.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/action_tutorials_interfaces
+[2.646s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces' for CMake module files
+[2.647s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces' for CMake config files
+[2.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[2.658s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/lib'
+[2.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/bin'
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages'
+[2.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'pythonpath')
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/pythonpath.ps1'
+[2.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/pythonpath.dsv'
+[2.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/pythonpath.sh'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/bin'
+[2.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[2.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[2.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[2.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[2.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[2.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_interfaces1)
+[2.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/build/test_interfaces1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/test_interfaces1
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1' for CMake module files
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1' for CMake config files
+[2.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces1', 'cmake_prefix_path')
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/cmake_prefix_path.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/cmake_prefix_path.dsv'
+[2.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/cmake_prefix_path.sh'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/lib'
+[2.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces1', 'ld_library_path_lib')
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/ld_library_path_lib.ps1'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/ld_library_path_lib.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/ld_library_path_lib.sh'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/bin'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/lib/pkgconfig/test_interfaces1.pc'
+[2.749s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages'
+[2.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces1', 'pythonpath')
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/pythonpath.ps1'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/pythonpath.dsv'
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/pythonpath.sh'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/bin'
+[2.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.ps1'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.sh'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.bash'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.zsh'
+[2.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/test_interfaces1/share/colcon-core/packages/test_interfaces1)
+[2.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces' for CMake module files
+[2.931s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces' for CMake config files
+[2.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[2.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[2.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[2.942s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/lib'
+[2.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[2.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[2.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[2.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[2.951s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/bin'
+[2.952s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[2.952s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages'
+[2.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'pythonpath')
+[2.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/pythonpath.ps1'
+[2.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/pythonpath.dsv'
+[2.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/pythonpath.sh'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_tutorials_interfaces/bin'
+[2.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[2.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[2.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[2.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[2.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[2.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[2.976s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/max/temp_workspace/src/action_service_client' with build type 'ament_python'
+[2.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_service_client', 'ament_prefix_path')
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_service_client/share/action_service_client/hook/ament_prefix_path.ps1'
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_service_client/share/action_service_client/hook/ament_prefix_path.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_service_client/share/action_service_client/hook/ament_prefix_path.sh'
+[2.992s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.722s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/max/temp_workspace/src/action_service_client'
+[3.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_interfaces1)
+[3.763s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1' for CMake module files
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1' for CMake config files
+[3.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces1', 'cmake_prefix_path')
+[3.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/cmake_prefix_path.ps1'
+[3.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/cmake_prefix_path.dsv'
+[3.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/cmake_prefix_path.sh'
+[3.775s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/lib'
+[3.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces1', 'ld_library_path_lib')
+[3.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/ld_library_path_lib.ps1'
+[3.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/ld_library_path_lib.dsv'
+[3.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/ld_library_path_lib.sh'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/bin'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/lib/pkgconfig/test_interfaces1.pc'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages'
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces1', 'pythonpath')
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/pythonpath.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/pythonpath.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/hook/pythonpath.sh'
+[3.789s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/test_interfaces1/bin'
+[3.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.ps1'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.dsv'
+[3.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.sh'
+[3.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.bash'
+[3.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/test_interfaces1/share/test_interfaces1/package.zsh'
+[3.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/test_interfaces1/share/colcon-core/packages/test_interfaces1)
+[3.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/src/listener': PYTHONPATH=/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/listener build --build-base /home/max/temp_workspace/build/listener/build install --prefix /home/max/temp_workspace/install/listener --record /home/max/temp_workspace/build/listener/install.log --single-version-externally-managed
+[3.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/src/talker': PYTHONPATH=/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/max/temp_workspace/build/talker/build install --prefix /home/max/temp_workspace/install/talker --record /home/max/temp_workspace/build/talker/install.log --single-version-externally-managed
+[3.813s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/max/temp_workspace/src/service' with build type 'ament_python'
+[3.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('service', 'ament_prefix_path')
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/service/share/service/hook/ament_prefix_path.ps1'
+[3.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/service/share/service/hook/ament_prefix_path.dsv'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/service/share/service/hook/ament_prefix_path.sh'
+[3.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.916s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/max/temp_workspace/src/service'
+[4.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.930s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/src/talker' returned '0': PYTHONPATH=/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker build --build-base /home/max/temp_workspace/build/talker/build install --prefix /home/max/temp_workspace/install/talker --record /home/max/temp_workspace/build/talker/install.log --single-version-externally-managed
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/talker' for CMake module files
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/talker' for CMake config files
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/talker/lib'
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/talker/bin'
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/talker/lib/pkgconfig/talker.pc'
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/talker/lib/python3.8/site-packages'
+[5.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('talker', 'pythonpath')
+[5.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/talker/share/talker/hook/pythonpath.ps1'
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/talker/share/talker/hook/pythonpath.dsv'
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/talker/share/talker/hook/pythonpath.sh'
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/talker/bin'
+[5.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talker)
+[5.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/talker/share/talker/package.ps1'
+[5.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/talker/share/talker/package.dsv'
+[5.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/talker/share/talker/package.sh'
+[5.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/talker/share/talker/package.bash'
+[5.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/talker/share/talker/package.zsh'
+[5.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/talker/share/colcon-core/packages/talker)
+[5.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/src/listener' returned '0': PYTHONPATH=/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/listener build --build-base /home/max/temp_workspace/build/listener/build install --prefix /home/max/temp_workspace/install/listener --record /home/max/temp_workspace/build/listener/install.log --single-version-externally-managed
+[5.162s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/listener' for CMake module files
+[5.163s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/listener' for CMake config files
+[5.164s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/listener/lib'
+[5.164s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/listener/bin'
+[5.164s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/listener/lib/pkgconfig/listener.pc'
+[5.165s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/listener/lib/python3.8/site-packages'
+[5.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('listener', 'pythonpath')
+[5.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/listener/share/listener/hook/pythonpath.ps1'
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/listener/share/listener/hook/pythonpath.dsv'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/listener/share/listener/hook/pythonpath.sh'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/listener/bin'
+[5.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(listener)
+[5.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/listener/share/listener/package.ps1'
+[5.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/listener/share/listener/package.dsv'
+[5.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/listener/share/listener/package.sh'
+[5.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/listener/share/listener/package.bash'
+[5.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/listener/share/listener/package.zsh'
+[5.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/listener/share/colcon-core/packages/listener)
+[5.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/src/action_service_client': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_service_client build --build-base /home/max/temp_workspace/build/action_service_client/build install --prefix /home/max/temp_workspace/install/action_service_client --record /home/max/temp_workspace/build/action_service_client/install.log --single-version-externally-managed
+[6.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/max/temp_workspace/src/service': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1 LD_LIBRARY_PATH=/home/max/temp_workspace/install/test_interfaces1/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed
+[6.398s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_service_client' for CMake module files
+[6.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/src/action_service_client' returned '0': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_service_client build --build-base /home/max/temp_workspace/build/action_service_client/build install --prefix /home/max/temp_workspace/install/action_service_client --record /home/max/temp_workspace/build/action_service_client/install.log --single-version-externally-managed
+[6.399s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_service_client' for CMake config files
+[6.400s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_service_client/lib'
+[6.400s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_service_client/bin'
+[6.400s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_service_client/lib/pkgconfig/action_service_client.pc'
+[6.400s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages'
+[6.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_service_client', 'pythonpath')
+[6.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_service_client/share/action_service_client/hook/pythonpath.ps1'
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/action_service_client/share/action_service_client/hook/pythonpath.dsv'
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/action_service_client/share/action_service_client/hook/pythonpath.sh'
+[6.407s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/action_service_client/bin'
+[6.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_service_client)
+[6.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_service_client/share/action_service_client/package.ps1'
+[6.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/action_service_client/share/action_service_client/package.dsv'
+[6.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_service_client/share/action_service_client/package.sh'
+[6.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_service_client/share/action_service_client/package.bash'
+[6.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/action_service_client/share/action_service_client/package.zsh'
+[6.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/action_service_client/share/colcon-core/packages/action_service_client)
+[6.847s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/service' for CMake module files
+[6.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/max/temp_workspace/src/service' returned '0': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/test_interfaces1 LD_LIBRARY_PATH=/home/max/temp_workspace/install/test_interfaces1/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed
+[6.849s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/service' for CMake config files
+[6.849s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/service/lib'
+[6.850s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/service/bin'
+[6.850s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/service/lib/pkgconfig/service.pc'
+[6.850s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/service/lib/python3.8/site-packages'
+[6.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('service', 'pythonpath')
+[6.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/service/share/service/hook/pythonpath.ps1'
+[6.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/max/temp_workspace/install/service/share/service/hook/pythonpath.dsv'
+[6.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/max/temp_workspace/install/service/share/service/hook/pythonpath.sh'
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/max/temp_workspace/install/service/bin'
+[6.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service)
+[6.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/service/share/service/package.ps1'
+[6.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/max/temp_workspace/install/service/share/service/package.dsv'
+[6.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/service/share/service/package.sh'
+[6.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/service/share/service/package.bash'
+[6.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/max/temp_workspace/install/service/share/service/package.zsh'
+[6.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/max/temp_workspace/install/service/share/colcon-core/packages/service)
+[6.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.867s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.878s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.903s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.909s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/temp_workspace/install/local_setup.ps1'
+[6.910s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/max/temp_workspace/install/_local_setup_util_ps1.py'
+[6.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/temp_workspace/install/setup.ps1'
+[6.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/temp_workspace/install/local_setup.sh'
+[6.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/max/temp_workspace/install/_local_setup_util_sh.py'
+[6.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/temp_workspace/install/setup.sh'
+[6.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/temp_workspace/install/local_setup.bash'
+[6.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/temp_workspace/install/setup.bash'
+[6.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/max/temp_workspace/install/local_setup.zsh'
+[6.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/max/temp_workspace/install/setup.zsh'

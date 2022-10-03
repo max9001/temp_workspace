@@ -1,0 +1,47 @@
+[1.174s] Invoking command in '/home/max/temp_workspace/src/action_service_client': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_service_client build --build-base /home/max/temp_workspace/build/action_service_client/build install --prefix /home/max/temp_workspace/install/action_service_client --record /home/max/temp_workspace/build/action_service_client/install.log --single-version-externally-managed
+[1.485s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.485s]   warnings.warn(
+[1.485s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.485s]   warnings.warn(
+[1.565s] running egg_info
+[1.565s] creating ../../build/action_service_client/action_service_client.egg-info
+[1.577s] writing ../../build/action_service_client/action_service_client.egg-info/PKG-INFO
+[1.577s] writing dependency_links to ../../build/action_service_client/action_service_client.egg-info/dependency_links.txt
+[1.578s] writing entry points to ../../build/action_service_client/action_service_client.egg-info/entry_points.txt
+[1.578s] writing requirements to ../../build/action_service_client/action_service_client.egg-info/requires.txt
+[1.578s] writing top-level names to ../../build/action_service_client/action_service_client.egg-info/top_level.txt
+[1.581s] writing manifest file '../../build/action_service_client/action_service_client.egg-info/SOURCES.txt'
+[1.605s] reading manifest file '../../build/action_service_client/action_service_client.egg-info/SOURCES.txt'
+[1.606s] writing manifest file '../../build/action_service_client/action_service_client.egg-info/SOURCES.txt'
+[1.607s] running build
+[1.607s] running build_py
+[1.607s] creating /home/max/temp_workspace/build/action_service_client/build
+[1.607s] creating /home/max/temp_workspace/build/action_service_client/build/lib
+[1.607s] creating /home/max/temp_workspace/build/action_service_client/build/lib/action_service_client
+[1.608s] copying action_service_client/action_client.py -> /home/max/temp_workspace/build/action_service_client/build/lib/action_service_client
+[1.608s] copying action_service_client/action_service.py -> /home/max/temp_workspace/build/action_service_client/build/lib/action_service_client
+[1.608s] copying action_service_client/__init__.py -> /home/max/temp_workspace/build/action_service_client/build/lib/action_service_client
+[1.608s] running install
+[1.608s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.608s]   warnings.warn(
+[1.614s] running install_lib
+[1.626s] creating /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client
+[1.627s] copying /home/max/temp_workspace/build/action_service_client/build/lib/action_service_client/action_client.py -> /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client
+[1.627s] copying /home/max/temp_workspace/build/action_service_client/build/lib/action_service_client/action_service.py -> /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client
+[1.627s] copying /home/max/temp_workspace/build/action_service_client/build/lib/action_service_client/__init__.py -> /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client
+[1.627s] byte-compiling /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client/action_client.py to action_client.cpython-38.pyc
+[1.628s] byte-compiling /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client/action_service.py to action_service.cpython-38.pyc
+[1.628s] byte-compiling /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client/__init__.py to __init__.cpython-38.pyc
+[1.628s] running install_data
+[1.641s] creating /home/max/temp_workspace/install/action_service_client/share/ament_index
+[1.641s] creating /home/max/temp_workspace/install/action_service_client/share/ament_index/resource_index
+[1.641s] creating /home/max/temp_workspace/install/action_service_client/share/ament_index/resource_index/packages
+[1.642s] copying resource/action_service_client -> /home/max/temp_workspace/install/action_service_client/share/ament_index/resource_index/packages
+[1.642s] copying package.xml -> /home/max/temp_workspace/install/action_service_client/share/action_service_client
+[1.642s] running install_egg_info
+[1.654s] Copying ../../build/action_service_client/action_service_client.egg-info to /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client-0.0.0-py3.8.egg-info
+[1.655s] running install_scripts
+[1.722s] Installing squares_action_client script to /home/max/temp_workspace/install/action_service_client/lib/action_service_client
+[1.722s] Installing squares_action_server script to /home/max/temp_workspace/install/action_service_client/lib/action_service_client
+[1.722s] writing list of installed files to '/home/max/temp_workspace/build/action_service_client/install.log'
+[1.783s] Invoked command in '/home/max/temp_workspace/src/action_service_client' returned '0': AMENT_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_service_client build --build-base /home/max/temp_workspace/build/action_service_client/build install --prefix /home/max/temp_workspace/install/action_service_client --record /home/max/temp_workspace/build/action_service_client/install.log --single-version-externally-managed

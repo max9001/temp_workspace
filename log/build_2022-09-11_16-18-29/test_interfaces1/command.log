@@ -1,2 +1,0 @@
-Invoking command in '/home/max/temp_workspace/build/test_interfaces1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4
-Invoked command in '/home/max/temp_workspace/build/test_interfaces1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/test_interfaces1 -- -j4 -l4

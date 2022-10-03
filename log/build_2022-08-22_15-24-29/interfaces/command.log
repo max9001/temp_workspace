@@ -1,2 +1,0 @@
-Invoking command in '/home/max/temp_workspace/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/max/temp_workspace/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/max/temp_workspace/install/interfaces
-Invoked command in '/home/max/temp_workspace/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/max/temp_workspace/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/max/temp_workspace/install/interfaces

@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/listener/listener.egg-info/PKG-INFO
+writing dependency_links to ../../build/listener/listener.egg-info/dependency_links.txt
+writing entry points to ../../build/listener/listener.egg-info/entry_points.txt
+writing requirements to ../../build/listener/listener.egg-info/requires.txt
+writing top-level names to ../../build/listener/listener.egg-info/top_level.txt
+reading manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+writing manifest file '../../build/listener/listener.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/listener/listener.egg-info to /home/max/temp_workspace/install/listener/lib/python3.8/site-packages/listener-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/max/temp_workspace/install/listener/lib/listener
+writing list of installed files to '/home/max/temp_workspace/build/listener/install.log'
+/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+/home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

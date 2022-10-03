@@ -1,0 +1,28 @@
+[4.092s] Invoking command in '/home/max/temp_workspace/src/service': PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed
+[4.973s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.974s]   warnings.warn(
+[4.974s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[4.974s]   warnings.warn(
+[5.248s] running egg_info
+[5.298s] writing ../../build/service/service.egg-info/PKG-INFO
+[5.298s] writing dependency_links to ../../build/service/service.egg-info/dependency_links.txt
+[5.299s] writing entry points to ../../build/service/service.egg-info/entry_points.txt
+[5.299s] writing requirements to ../../build/service/service.egg-info/requires.txt
+[5.301s] writing top-level names to ../../build/service/service.egg-info/top_level.txt
+[5.355s] reading manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[5.357s] writing manifest file '../../build/service/service.egg-info/SOURCES.txt'
+[5.357s] running build
+[5.357s] running build_py
+[5.358s] running install
+[5.358s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.358s]   warnings.warn(
+[5.371s] running install_lib
+[5.397s] running install_data
+[5.423s] running install_egg_info
+[5.448s] removing '/home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info' (and everything under it)
+[5.449s] Copying ../../build/service/service.egg-info to /home/max/temp_workspace/install/service/lib/python3.8/site-packages/service-0.0.0-py3.8.egg-info
+[5.450s] running install_scripts
+[5.577s] Installing client script to /home/max/temp_workspace/install/service/lib/service
+[5.577s] Installing service script to /home/max/temp_workspace/install/service/lib/service
+[5.578s] writing list of installed files to '/home/max/temp_workspace/build/service/install.log'
+[5.672s] Invoked command in '/home/max/temp_workspace/src/service' returned '0': PYTHONPATH=/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/service build --build-base /home/max/temp_workspace/build/service/build install --prefix /home/max/temp_workspace/install/service --record /home/max/temp_workspace/build/service/install.log --single-version-externally-managed

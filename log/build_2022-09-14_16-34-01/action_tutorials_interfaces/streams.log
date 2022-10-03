@@ -1,0 +1,141 @@
+[0.069s] Invoking command in '/home/max/temp_workspace/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/action_tutorials_interfaces -- -j4 -l4
+[1.437s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.437s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.437s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.437s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.438s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.438s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.438s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.604s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.887s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.992s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.993s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.064s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.065s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.145s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.148s] -- Added test 'lint_cmake' to check CMake code style
+[2.150s] -- Added test 'xmllint' to check XML markup files
+[2.158s] -- Configuring done
+[2.294s] -- Generating done
+[2.310s] -- Build files have been written to: /home/max/temp_workspace/build/action_tutorials_interfaces
+[2.483s] [  3%] Built target action_tutorials_interfaces__cpp
+[2.522s] [ 12%] Built target action_tutorials_interfaces__rosidl_generator_c
+[2.655s] [ 25%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp
+[2.655s] [ 32%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp
+[2.655s] [ 41%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.662s] [ 51%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c
+[2.749s] [ 61%] Built target action_tutorials_interfaces__rosidl_typesupport_c
+[2.768s] [ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c
+[2.858s] [ 70%] Built target action_tutorials_interfaces
+[2.988s] [ 74%] Built target action_tutorials_interfaces__py
+[3.136s] [ 80%] Built target action_tutorials_interfaces__python
+[3.281s] [ 87%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext
+[3.287s] [ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.318s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.362s] Invoked command in '/home/max/temp_workspace/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/max/temp_workspace/build/action_tutorials_interfaces -- -j4 -l4
+[4.067s] Invoking command in '/home/max/temp_workspace/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/action_tutorials_interfaces
+[4.089s] -- Install configuration: ""
+[4.089s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces
+[4.090s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[4.090s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[4.090s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.090s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[4.090s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[4.091s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__functions.c
+[4.091s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__struct.h
+[4.091s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__type_support.h
+[4.091s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__functions.h
+[4.091s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/squares.h
+[4.092s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh
+[4.092s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv
+[4.092s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so
+[4.092s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[4.092s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[4.093s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.093s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[4.093s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[4.093s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_fastrtps_c.h
+[4.093s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.094s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[4.094s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[4.094s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.094s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[4.094s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[4.095s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_fastrtps_cpp.hpp
+[4.095s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/dds_fastrtps
+[4.095s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.095s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[4.095s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg
+[4.096s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.096s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[4.096s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[4.097s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__type_support.c
+[4.097s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_introspection_c.h
+[4.097s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so
+[4.097s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so
+[4.098s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[4.098s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[4.098s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__builder.hpp
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__struct.hpp
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__traits.hpp
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/squares.hpp
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail
+[4.099s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__rosidl_typesupport_introspection_cpp.hpp
+[4.100s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action/detail/squares__type_support.cpp
+[4.100s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.100s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so
+[4.100s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh
+[4.100s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv
+[4.100s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py
+[4.177s] Compiling '/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/__init__.py'...
+[4.205s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action
+[4.206s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_squares_s.c
+[4.206s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/__init__.py
+[4.206s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action/_squares.py
+[4.217s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.218s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.218s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.220s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__python.so
+[4.260s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Squares.idl
+[4.260s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Squares.action
+[4.262s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+[4.262s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+[4.262s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+[4.263s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+[4.263s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+[4.263s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+[4.264s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+[4.264s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+[4.264s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+[4.265s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+[4.265s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+[4.265s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+[4.266s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport.cmake
+[4.266s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.266s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.267s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.267s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake
+[4.267s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.268s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_generator_cppExport.cmake
+[4.268s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.270s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.270s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake
+[4.271s] -- Installing: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.271s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.271s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.272s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.273s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.274s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.274s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.274s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.276s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+[4.276s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+[4.277s] -- Up-to-date: /home/max/temp_workspace/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml
+[4.324s] Invoked command in '/home/max/temp_workspace/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/max/temp_workspace/build/action_tutorials_interfaces

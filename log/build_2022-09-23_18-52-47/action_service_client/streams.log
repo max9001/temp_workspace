@@ -1,0 +1,28 @@
+[1.142s] Invoking command in '/home/max/temp_workspace/src/action_service_client': CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces:/home/max/temp_workspace/install/test_interfaces1 LD_LIBRARY_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces/lib:/home/max/temp_workspace/install/test_interfaces1/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_service_client build --build-base /home/max/temp_workspace/build/action_service_client/build install --prefix /home/max/temp_workspace/install/action_service_client --record /home/max/temp_workspace/build/action_service_client/install.log --single-version-externally-managed
+[1.423s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.423s]   warnings.warn(
+[1.423s] /home/max/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.423s]   warnings.warn(
+[1.496s] running egg_info
+[1.507s] writing ../../build/action_service_client/action_service_client.egg-info/PKG-INFO
+[1.508s] writing dependency_links to ../../build/action_service_client/action_service_client.egg-info/dependency_links.txt
+[1.508s] writing entry points to ../../build/action_service_client/action_service_client.egg-info/entry_points.txt
+[1.508s] writing requirements to ../../build/action_service_client/action_service_client.egg-info/requires.txt
+[1.508s] writing top-level names to ../../build/action_service_client/action_service_client.egg-info/top_level.txt
+[1.532s] reading manifest file '../../build/action_service_client/action_service_client.egg-info/SOURCES.txt'
+[1.533s] writing manifest file '../../build/action_service_client/action_service_client.egg-info/SOURCES.txt'
+[1.534s] running build
+[1.534s] running build_py
+[1.534s] running install
+[1.535s] /home/max/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.535s]   warnings.warn(
+[1.541s] running install_lib
+[1.552s] running install_data
+[1.562s] running install_egg_info
+[1.573s] removing '/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client-0.0.0-py3.8.egg-info' (and everything under it)
+[1.574s] Copying ../../build/action_service_client/action_service_client.egg-info to /home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages/action_service_client-0.0.0-py3.8.egg-info
+[1.575s] running install_scripts
+[1.638s] Installing squares_action_client script to /home/max/temp_workspace/install/action_service_client/lib/action_service_client
+[1.639s] Installing squares_action_server script to /home/max/temp_workspace/install/action_service_client/lib/action_service_client
+[1.639s] writing list of installed files to '/home/max/temp_workspace/build/action_service_client/install.log'
+[1.698s] Invoked command in '/home/max/temp_workspace/src/action_service_client' returned '0': CMAKE_PREFIX_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces:/home/max/temp_workspace/install/test_interfaces1 LD_LIBRARY_PATH=/home/max/temp_workspace/install/action_tutorials_interfaces/lib:/home/max/temp_workspace/install/test_interfaces1/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_tutorials_interfaces/lib/python3.8/site-packages:/home/max/temp_workspace/install/service/lib/python3.8/site-packages:/home/max/temp_workspace/install/test_interfaces1/lib/python3.8/site-packages:/home/max/temp_workspace/install/talker/lib/python3.8/site-packages:/home/max/temp_workspace/install/listener/lib/python3.8/site-packages:/home/max/temp_workspace/install/action_service_client/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_service_client build --build-base /home/max/temp_workspace/build/action_service_client/build install --prefix /home/max/temp_workspace/install/action_service_client --record /home/max/temp_workspace/build/action_service_client/install.log --single-version-externally-managed
